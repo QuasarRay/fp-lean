@@ -1,0 +1,3351 @@
+{
+  "status": "HTML_FULL_SOURCE_WITH_ADHD_SUPPLEMENTS",
+  "original_repository": "https://github.com/leanprover/fp-lean",
+  "book_source_revision": "b0bfbb712b02de9aa084a07046b553c025ddb08a",
+  "pages": [
+    {
+      "source_html": "Acknowledgments/index.html",
+      "source_sha256": "af696611c94e4c65b92d78aec6594ff2051defe7222d1308c4e77494b8ddd0a1",
+      "code_blocks": 0,
+      "headings": 1,
+      "concept_snapshots": 1,
+      "unresolved_headings": [],
+      "enhanced_sha256": "34cdf084a929f2776654029acbbb89ed87cffdbbea2848f56d5d0dfa32f047b7",
+      "markdown_sha256": "ae735b6795b8cb49d9576cae92e3818efe361b6a5d8d9e987443bd4f7bda7cf6"
+    },
+    {
+      "source_html": "Functors___-Applicative-Functors___-and-Monads/Alternatives/index.html",
+      "source_sha256": "e0a50a0d772120e3e960eb500841e69bc0d518c5e439816394c2907b0f732ea2",
+      "code_blocks": 5,
+      "headings": 5,
+      "concept_snapshots": 3,
+      "unresolved_headings": [
+        "5.4. Alternatives 🔗",
+        "5.4.3. Exercises 🔗"
+      ],
+      "enhanced_sha256": "77de9eb508abdd05a5651689b9b46b2bc6a9403573960e00916163e7f3e89490",
+      "markdown_sha256": "5e613439908f2a133f96595ecf19e92a26dd799659bdd33c1a6477b83fdbbc6b"
+    },
+    {
+      "source_html": "Functors___-Applicative-Functors___-and-Monads/Applicative-Functors/index.html",
+      "source_sha256": "63614fa62cbf74af5447c4b9cf79d47b43d6878c2ebdab92673d526eb3aa6a99",
+      "code_blocks": 5,
+      "headings": 5,
+      "concept_snapshots": 5,
+      "unresolved_headings": [],
+      "enhanced_sha256": "3dd684394d8cd368e24cca3469006fbce35bfd127b4fbcf2a598868a3baa9c63",
+      "markdown_sha256": "187e982110230989201c63ff7d4b6bf1eb57740f4848c38160306532e55cad25"
+    },
+    {
+      "source_html": "Functors___-Applicative-Functors___-and-Monads/Structures-and-Inheritance/index.html",
+      "source_sha256": "ea5437af41ff39c3abc4a89ebd191085057d7bd882c0bb942d4eebabafee9062",
+      "code_blocks": 9,
+      "headings": 4,
+      "concept_snapshots": 4,
+      "unresolved_headings": [],
+      "enhanced_sha256": "a5f90c0d254ca5154acfec18319e36d4a6ee18c98ab505268fbe86155d539345",
+      "markdown_sha256": "addf162a85fd0f46afa63a8a12fdd4a52871c4de89825ab11c154db91fd27d87"
+    },
+    {
+      "source_html": "Functors___-Applicative-Functors___-and-Monads/Summary/index.html",
+      "source_sha256": "14d6c58a30be89a9d45a438c42a5013e3ea007218b890664fa266a8ca61166aa",
+      "code_blocks": 0,
+      "headings": 5,
+      "concept_snapshots": 4,
+      "unresolved_headings": [
+        "5.7. Summary 🔗"
+      ],
+      "enhanced_sha256": "41b5e7c2d33470bec992da0b5bbc237f23181b41aa994e55bc1f5daabd147a81",
+      "markdown_sha256": "a77de547ae8bc00efba6544a01198fa480534d4c4a938e971c98882322107a28"
+    },
+    {
+      "source_html": "Functors___-Applicative-Functors___-and-Monads/The-Applicative-Contract/index.html",
+      "source_sha256": "fde0a8166caea858f09360fb951185a0cb0dfa4b64a6ad41867e44c8dffaf219",
+      "code_blocks": 0,
+      "headings": 4,
+      "concept_snapshots": 4,
+      "unresolved_headings": [],
+      "enhanced_sha256": "48d4d0e1f28179b00316a557e29bfe31dfaf6c3d3895c5ff2808249587768692",
+      "markdown_sha256": "6b99ffbb75ef76a6631bd257074d9e2a5871474e2a10d60f187d6ce02ce99eda"
+    },
+    {
+      "source_html": "Functors___-Applicative-Functors___-and-Monads/The-Complete-Definitions/index.html",
+      "source_sha256": "6b65d3eb1bf0576f5fad20e42923b2698d6b8b142abd299a87208929d676ae87",
+      "code_blocks": 2,
+      "headings": 5,
+      "concept_snapshots": 5,
+      "unresolved_headings": [],
+      "enhanced_sha256": "4dac71ce75e9e0eb5f4cad4f8e44114374b98befc82f66fb80de34d22df7b18e",
+      "markdown_sha256": "a5d91ec1cd503e12456c02cd1546b46d2d3aedaf9738dcb1ae265255b1db1879"
+    },
+    {
+      "source_html": "Functors___-Applicative-Functors___-and-Monads/Universes/index.html",
+      "source_sha256": "3db4faac94ab7c0a4f0e430aee35336a566aa7e1e2670e7f980182ccc505c212",
+      "code_blocks": 5,
+      "headings": 6,
+      "concept_snapshots": 6,
+      "unresolved_headings": [],
+      "enhanced_sha256": "cd429564d0a64ae1aa8b6939169ba1b8f0dede5bb0790fda1568952693a51bb3",
+      "markdown_sha256": "5869c02688aa53ce9c62ead3ffab80b8ba3883519e6d6749e4f411280c25e091"
+    },
+    {
+      "source_html": "Functors___-Applicative-Functors___-and-Monads/index.html",
+      "source_sha256": "0beb647f8f1a8f7c30f34f89928b30a6559deb95203240178aa02971df80888d",
+      "code_blocks": 0,
+      "headings": 1,
+      "concept_snapshots": 1,
+      "unresolved_headings": [],
+      "enhanced_sha256": "a1755f16527066aecf8e6f7def26cbd8389b44419301d7a182299c9a42b47365",
+      "markdown_sha256": "5786ccf4f216343ec1fb3dfe13b100d4601bc73a1c8a5896a8e561dbb7e4b373"
+    },
+    {
+      "source_html": "Getting-to-Know-Lean/Additional-Conveniences/index.html",
+      "source_sha256": "dac98ce49c650e67bca032471a5f76aa9281c41c579f01ccdf5080c04fcf3690",
+      "code_blocks": 22,
+      "headings": 12,
+      "concept_snapshots": 12,
+      "unresolved_headings": [],
+      "enhanced_sha256": "f2f147e6f42b67456535ee27b4c10d054a920b7f3dd21d0d99a3754d0d135edc",
+      "markdown_sha256": "8015da662a061c78619e4434f077a07541c483b6c8c9bca451edab77960db9a9"
+    },
+    {
+      "source_html": "Getting-to-Know-Lean/Characters___-Strings___-and-Slices/index.html",
+      "source_sha256": "584622eb5c7a2edf2bfc57c55459d324a52b60e9de367c6ccfbd82db4bdf380b",
+      "code_blocks": 10,
+      "headings": 4,
+      "concept_snapshots": 4,
+      "unresolved_headings": [],
+      "enhanced_sha256": "6428b17ab42f8ffc6cbdc50b139bb77cd275627791c81801cf952f7d1b606366",
+      "markdown_sha256": "56e4948363baa5828870e1a3fd35cd6868bf627be7eecafaafd6af57049297b1"
+    },
+    {
+      "source_html": "Getting-to-Know-Lean/Datatypes-and-Patterns/index.html",
+      "source_sha256": "f18cff0d9d16bbb5a9270cef9ac7d1d727a7d12a813b364727c5f689fa7497b5",
+      "code_blocks": 8,
+      "headings": 3,
+      "concept_snapshots": 3,
+      "unresolved_headings": [],
+      "enhanced_sha256": "2363d8ad49cbd3f479e15291e6368f5b1919f72e3be0853eb6ecb26737765c9d",
+      "markdown_sha256": "6c7423df73c44e9e5a93f25cebc4bd3637c2fa7a17e121b84ea9ea41bbb346a6"
+    },
+    {
+      "source_html": "Getting-to-Know-Lean/Evaluating-Expressions/index.html",
+      "source_sha256": "16a26022fc7bcdef85bc99ff7c8d4d8820abdfb74330ee3850a0e112de772cd3",
+      "code_blocks": 3,
+      "headings": 3,
+      "concept_snapshots": 3,
+      "unresolved_headings": [],
+      "enhanced_sha256": "0010db9a0f0db4b8011f8879da32b09c99dfad724d7cf189101ff44160ae7a80",
+      "markdown_sha256": "f58adf24d6e73dc7629a87e9bf7ce2d6feaf76880495860f299410eb5a6397d8"
+    },
+    {
+      "source_html": "Getting-to-Know-Lean/Functions-and-Definitions/index.html",
+      "source_sha256": "0bae51cebcd15421f489f87dfa878df1f6a24941224c18650d741e44a07e3d46",
+      "code_blocks": 2,
+      "headings": 5,
+      "concept_snapshots": 5,
+      "unresolved_headings": [],
+      "enhanced_sha256": "8e86581235e84ee25dae088792dc1242f98bfa81c168cb2454464c027137cd08",
+      "markdown_sha256": "b53112dd6b150bdeb7b8c84375bec51ed614116f4a93e7eaf8f31d80626fd71a"
+    },
+    {
+      "source_html": "Getting-to-Know-Lean/Polymorphism/index.html",
+      "source_sha256": "372163bc09a5d996acb62cfe75938e2c9e3dd83a3955ae6e6257a631f8c60778",
+      "code_blocks": 22,
+      "headings": 12,
+      "concept_snapshots": 12,
+      "unresolved_headings": [],
+      "enhanced_sha256": "8f32395e0acd46bd120f4e4e61158e3f4911cc0e4e595a481045a1c49f5037d5",
+      "markdown_sha256": "3ab374b1a3d576f3e22076660fa4d8aa06b44554a97f7b58803c00b5d79bde13"
+    },
+    {
+      "source_html": "Getting-to-Know-Lean/Structures/index.html",
+      "source_sha256": "2b6f8b4f384b9f76d1ca52c175f0a14991ffef47c04b3edb5be65ae556ea92e7",
+      "code_blocks": 23,
+      "headings": 4,
+      "concept_snapshots": 4,
+      "unresolved_headings": [],
+      "enhanced_sha256": "8a066b10d188637b8ca6204ca8807554bfcc2e30edbb80b5fadc22a6c34c419a",
+      "markdown_sha256": "2d80fc5854f9e9ab1928858746314af09563c3a1a4a1e7e2fe12480a743e1c43"
+    },
+    {
+      "source_html": "Getting-to-Know-Lean/Summary/index.html",
+      "source_sha256": "4887f3a0885ae07a31c3793546cdd90ed2a1df8d0696bd7df4ced764c8a6f42e",
+      "code_blocks": 0,
+      "headings": 7,
+      "concept_snapshots": 6,
+      "unresolved_headings": [
+        "1.9. Summary 🔗"
+      ],
+      "enhanced_sha256": "7d29abbf1e927e64e51baf9da9a72396d1bbec50cfbee0d6802e4c32ef875606",
+      "markdown_sha256": "21ea55ac976a2061e73e7e1a68ae8ef772fa704de16a043c553ff94f1b51bda1"
+    },
+    {
+      "source_html": "Getting-to-Know-Lean/Types/index.html",
+      "source_sha256": "2db7804a650dd7585219fb15b556c364de9e5f8f545182bad4d6c9b2d12bc0b0",
+      "code_blocks": 1,
+      "headings": 1,
+      "concept_snapshots": 1,
+      "unresolved_headings": [],
+      "enhanced_sha256": "16b187aa850aa4ad7e587b5c47cfa07d501d1db2dbe98629192619879e7a3e6f",
+      "markdown_sha256": "ebcb65f80ae2cf88b30a50913b4ae3102780e0c98b863461012b29eb86de0454"
+    },
+    {
+      "source_html": "Getting-to-Know-Lean/index.html",
+      "source_sha256": "31f1bf4d2b2fb8f8fd6490c73ca28a3a75b894eddc68ef6a61f34ae2d72c356e",
+      "code_blocks": 0,
+      "headings": 1,
+      "concept_snapshots": 1,
+      "unresolved_headings": [],
+      "enhanced_sha256": "de3181c73473accb2bc981004e319bd4b5d9794c35ae93ce790c71f63d3413cc",
+      "markdown_sha256": "93c3648a8d86cfa6c01e94af2f13561988438ad62a70534a6fb40de9a4f49cd6"
+    },
+    {
+      "source_html": "Hello___-World___/Additional-Conveniences/index.html",
+      "source_sha256": "121cc18acf1454ecd3b8a39519e01edbf21a70fd7344494d7c865ba32c5666db",
+      "code_blocks": 2,
+      "headings": 4,
+      "concept_snapshots": 3,
+      "unresolved_headings": [
+        "2.5. Additional Conveniences 🔗"
+      ],
+      "enhanced_sha256": "0f9b894c0d26d723f85d9ac2d2efb4e0219163025badbf8786343537e81923f8",
+      "markdown_sha256": "ab78730654e39e3ed9b217d706aa2654cbbed724c69d8d7cc944b346c4309cdb"
+    },
+    {
+      "source_html": "Hello___-World___/Running-a-Program/index.html",
+      "source_sha256": "34e26e35216214176efd2f359459b6fa49b7f639f3f173f92cdc549f65c08d90",
+      "code_blocks": 0,
+      "headings": 5,
+      "concept_snapshots": 5,
+      "unresolved_headings": [],
+      "enhanced_sha256": "d250e37e0686202b30a63e804aad76d6704c3956cfaad5c48e00c5634cd04997",
+      "markdown_sha256": "b8e4f8bb3db501efd7b5a482f834ecbfb1472e6dc8754aceb5b4d9f40589e7dc"
+    },
+    {
+      "source_html": "Hello___-World___/Starting-a-Project/index.html",
+      "source_sha256": "89e18ff2f24eac868b3c815a8b6395a58a65189083be5113e91f7352a7a4d024",
+      "code_blocks": 0,
+      "headings": 4,
+      "concept_snapshots": 4,
+      "unresolved_headings": [],
+      "enhanced_sha256": "0f01dde27841f2200e1982d6c9264a2dd7a21538fbd796522397630445d5e91f",
+      "markdown_sha256": "a33c387cb77a8ef8db6e2e7be06d65e7c5533321824733ec0bfd172a3cde6629"
+    },
+    {
+      "source_html": "Hello___-World___/Step-By-Step/index.html",
+      "source_sha256": "04800f8cc283df4e8254067e0023a0db029c130fd48fb6c5a260e5812375940a",
+      "code_blocks": 5,
+      "headings": 6,
+      "concept_snapshots": 6,
+      "unresolved_headings": [],
+      "enhanced_sha256": "3dc9864ea9134970b10c7161f6660c7b9615b96bd38bb7f8a72a858320bb215e",
+      "markdown_sha256": "b9f70851a63386d4479aadf8755ffc8eb8f486fc23925d2d754e46d778323355"
+    },
+    {
+      "source_html": "Hello___-World___/Summary/index.html",
+      "source_sha256": "360576e2f42a40dee0d37fd4db2ae1d9b7aa3960fdaa885547052b78162a5550",
+      "code_blocks": 0,
+      "headings": 5,
+      "concept_snapshots": 4,
+      "unresolved_headings": [
+        "2.6. Summary 🔗"
+      ],
+      "enhanced_sha256": "4d012ca833860f47d33d91588a17079fcd4628984396567c60ae96a9dca1e0ca",
+      "markdown_sha256": "7ebcf281634194e08242b3fe20187ea980ca6a57cc1caa021294eaeb8a0d8f6f"
+    },
+    {
+      "source_html": "Hello___-World___/Worked-Example___--cat/index.html",
+      "source_sha256": "699b6090ca00d5899e1a8c8debc60cc18989179d9c98d5ba664c6e95680f2453",
+      "code_blocks": 2,
+      "headings": 8,
+      "concept_snapshots": 8,
+      "unresolved_headings": [],
+      "enhanced_sha256": "9e81868d45cd03755629a786ccf0898a39b1ca433eee640df64d4d817fc79016",
+      "markdown_sha256": "03f838cb15524a3303ddad76923019ef74c92fb9b0655b9e95a7921c7daeade6"
+    },
+    {
+      "source_html": "Hello___-World___/index.html",
+      "source_sha256": "1337acb16df9a6ccbd735d64098b78484bd779398f4898adab0b2d80c7b6b3cf",
+      "code_blocks": 0,
+      "headings": 1,
+      "concept_snapshots": 1,
+      "unresolved_headings": [],
+      "enhanced_sha256": "8945646fae5c65d2cfdcd3e7ac1501ebe24f78e78d6ece5280e10169a0e7e5e8",
+      "markdown_sha256": "978796dbf90c34eae755548da7c2f7461f4927dd1f21616803da577bf177d86b"
+    },
+    {
+      "source_html": "Interlude___-Propositions___-Proofs___-and-Indexing/index.html",
+      "source_sha256": "0ddae4823ec6fe47876c137d5c70add0d83ebe9b8b2bf042d59a31a1f344a37e",
+      "code_blocks": 12,
+      "headings": 8,
+      "concept_snapshots": 8,
+      "unresolved_headings": [],
+      "enhanced_sha256": "1372aefaf2b25eabaec057a9eadee1724ba5a3670092a8516cf01ce093585d3a",
+      "markdown_sha256": "283e3ca20858ac40b869905ade6042ad751da1b785bbcea75142fe5f2c6405ac"
+    },
+    {
+      "source_html": "Interlude___-Tactics___-Induction___-and-Proofs/index.html",
+      "source_sha256": "419f16fb782f181edf7ece288916ece97d5d0d7ffee6000a69a16e97457295c6",
+      "code_blocks": 13,
+      "headings": 8,
+      "concept_snapshots": 7,
+      "unresolved_headings": [
+        "Interlude: Tactics, Induction, and Proofs 🔗"
+      ],
+      "enhanced_sha256": "9d75746fd7d9c220681ca8827cda10ded1a8ff1503aa5726a58bcf70803282a8",
+      "markdown_sha256": "7cc93cd19489383606a8a4080947071e79f116bd9e8a2227e878593ea54d6490"
+    },
+    {
+      "source_html": "Introduction/index.html",
+      "source_sha256": "4a80a0bd767793b1246039b817974a37cfd9fb31e5b221c7ea984b092c9b4158",
+      "code_blocks": 3,
+      "headings": 25,
+      "concept_snapshots": 24,
+      "unresolved_headings": [
+        "Release history 🔗"
+      ],
+      "enhanced_sha256": "de7f08478b8471b0683c1cee1966292b3f8f5daf5d5d22c99d3f56b068d31bad",
+      "markdown_sha256": "785a2d28943dcd58edcb7f596d1e0ce8cf59b6b427f1d166e0fd2ef7f89945c0"
+    },
+    {
+      "source_html": "Monad-Transformers/A-Monad-Construction-Kit/index.html",
+      "source_sha256": "3c8b68da6f4b540ed73e48a580c5e0c90ff8f5f1e39348b08f77fc694f7e4663",
+      "code_blocks": 3,
+      "headings": 14,
+      "concept_snapshots": 13,
+      "unresolved_headings": [
+        "6.2.6. Exercises 🔗"
+      ],
+      "enhanced_sha256": "13d9efd5e441d4f639e86230f78caeb0cd87a6398ebd44d642df122b735375d2",
+      "markdown_sha256": "2aa048d42822f01d2ceef0991ba098be0d59881121bcec805a23205a6f5fa13e"
+    },
+    {
+      "source_html": "Monad-Transformers/Additional-Conveniences/index.html",
+      "source_sha256": "213d8f3a601647ab0ad56b106c3335e82b2173f3facda39bcddbc0a8afb73049",
+      "code_blocks": 2,
+      "headings": 4,
+      "concept_snapshots": 3,
+      "unresolved_headings": [
+        "6.5. Additional Conveniences 🔗"
+      ],
+      "enhanced_sha256": "ef2890e8f4b6050064cbe0b370d8511c55a86dcc85d6ce3adb25853a7356873b",
+      "markdown_sha256": "289e009d89f8aae555c1c41753eeca46cd87069c4ac68b72d48a84db8e9446a3"
+    },
+    {
+      "source_html": "Monad-Transformers/Combining-IO-and-Reader/index.html",
+      "source_sha256": "38df655d56fe17b7a4f464205c2dffee401b0851e21fde8563dac5f90077e2bf",
+      "code_blocks": 0,
+      "headings": 7,
+      "concept_snapshots": 6,
+      "unresolved_headings": [
+        "6.1.4. Exercises 🔗"
+      ],
+      "enhanced_sha256": "14aeed0776f74438a52f177639881f97d85331bee155523687f5d9276636d955",
+      "markdown_sha256": "43a914a7a929da220140bb61a91dcbf057787fda208d7fcf47cb32d7d1f700c6"
+    },
+    {
+      "source_html": "Monad-Transformers/More-do-Features/index.html",
+      "source_sha256": "bde57f3fe459e818ef8414202903c0044b478e00cde2569836c10c337ea26251",
+      "code_blocks": 9,
+      "headings": 10,
+      "concept_snapshots": 10,
+      "unresolved_headings": [],
+      "enhanced_sha256": "9a49ec42d37a9f1d3305c47244bed3835480880af570eda470c65bd2cd3568f8",
+      "markdown_sha256": "d4b128a48dbfe4dfe55bc8607213717e42929fc6386572978409fe59c8146ab8"
+    },
+    {
+      "source_html": "Monad-Transformers/Ordering-Monad-Transformers/index.html",
+      "source_sha256": "d38e0be8edd9e39a5803530276b7ac55c6d64d420fef47c78ed40454e5bcc0b3",
+      "code_blocks": 8,
+      "headings": 3,
+      "concept_snapshots": 3,
+      "unresolved_headings": [],
+      "enhanced_sha256": "91a758d8ed811212ab02ff4f4c4b2fa183124a20d418d3e6329d5b4d7bf0039f",
+      "markdown_sha256": "ed258b27a1dac29b191bd91688b026d2548ce7147eb7cf1d83d12597eef40e22"
+    },
+    {
+      "source_html": "Monad-Transformers/Summary/index.html",
+      "source_sha256": "1831c5bd849a5bb126807b9acb7403c2d31fc7a74a9bdfbf840fa6a789860b35",
+      "code_blocks": 0,
+      "headings": 5,
+      "concept_snapshots": 4,
+      "unresolved_headings": [
+        "6.6. Summary 🔗"
+      ],
+      "enhanced_sha256": "b49e2f86a088a827ec7f2318f0d18f9076948622977dd95d6464ed3d9bb7bb0b",
+      "markdown_sha256": "e1d4b8ebc081a9d6d13ee331727f929c8a4ccfd2e98036ff83a789b3047be1d6"
+    },
+    {
+      "source_html": "Monad-Transformers/index.html",
+      "source_sha256": "86d286fb9570bf098aa0bcc3d19863c91c1c144926a85ecaec6221f2dfc2a337",
+      "code_blocks": 0,
+      "headings": 1,
+      "concept_snapshots": 1,
+      "unresolved_headings": [],
+      "enhanced_sha256": "ef97471353fc242b113dad83771d56cbfb90c8f46d4794a026b4306b8dba48d1",
+      "markdown_sha256": "088cf2b0d7f538f5028b53096d905dbe40efa6b6847bcc746dcc3aed7fda0241"
+    },
+    {
+      "source_html": "Monads/Additional-Conveniences/index.html",
+      "source_sha256": "11658294e3e6696d441ae98e001bde4b7c7c328479e6f990ea802423b2ab5f58",
+      "code_blocks": 4,
+      "headings": 4,
+      "concept_snapshots": 3,
+      "unresolved_headings": [
+        "4.6. Additional Conveniences 🔗"
+      ],
+      "enhanced_sha256": "5e83140c0611a263c3f3ad7cce130bc25f90a8776bee2526ed1f057e063f4337",
+      "markdown_sha256": "61672328b74cf927f3c73dd1654a7aa9ce03a7951ad3875ddb3a3b124eff8fe8"
+    },
+    {
+      "source_html": "Monads/Example___-Arithmetic-in-Monads/index.html",
+      "source_sha256": "4c7ad096032d5905fd2a7988df3333ca9cb389138a4e84de0b57d94ced88fb49",
+      "code_blocks": 14,
+      "headings": 11,
+      "concept_snapshots": 10,
+      "unresolved_headings": [
+        "4.3.3.4. Exercises 🔗"
+      ],
+      "enhanced_sha256": "69079879069a282a203cb43ac7ee031e8ad368256d78f81c14e19998ad44be0d",
+      "markdown_sha256": "0b2e7051b5a00d517d71bbca47952578a7605f77baa23c698d68d24c69d18fa2"
+    },
+    {
+      "source_html": "Monads/One-API___-Many-Applications/index.html",
+      "source_sha256": "0887b873f822c610f8b73e9e07d0e98d601c53d8b52ec6ea0abf20ddffc6e8cb",
+      "code_blocks": 6,
+      "headings": 7,
+      "concept_snapshots": 7,
+      "unresolved_headings": [],
+      "enhanced_sha256": "d7f94ce38d84fc7b8522fe7f5c2235fdf54bab4fba1c3dc869a14e5e3dbcdd2a",
+      "markdown_sha256": "b9057f2d1255c6d49a9dd948b41cc9f772ae8d97ced246c286e041fd119255e8"
+    },
+    {
+      "source_html": "Monads/Summary/index.html",
+      "source_sha256": "f6f9dbf5ffe2f6d2dbe75189aaa34a3ad25d476e9018c06e312fa20bdfbfba3e",
+      "code_blocks": 0,
+      "headings": 6,
+      "concept_snapshots": 5,
+      "unresolved_headings": [
+        "4.7. Summary 🔗"
+      ],
+      "enhanced_sha256": "88bb6f1f602e104eb02765f65c4df47ba0cee96dce824361f3fac78e52a557cf",
+      "markdown_sha256": "3e35b506d3c2e736004d9719070885895a1de97b87bfa8a284e54e56c09095a4"
+    },
+    {
+      "source_html": "Monads/The-IO-Monad/index.html",
+      "source_sha256": "2cf557f5b70f8eca054eb33c6664153d744adc751921d072d44c16629019500e",
+      "code_blocks": 10,
+      "headings": 1,
+      "concept_snapshots": 1,
+      "unresolved_headings": [],
+      "enhanced_sha256": "5fb9f722f94df44e3bef599f309840319ae5a3c280107afa1d4a7da8a17cb3c5",
+      "markdown_sha256": "b197e8cbfbfa5b45bd54a24d3401a0460208d12809a8111487b26dae8cb946e7"
+    },
+    {
+      "source_html": "Monads/The-Monad-Type-Class/index.html",
+      "source_sha256": "fb66e9ba2cb6e999f45c4528f7aadee377736d90ad0fbbcff67273efa8ce5185",
+      "code_blocks": 7,
+      "headings": 7,
+      "concept_snapshots": 6,
+      "unresolved_headings": [
+        "4.2.4. Exercises 🔗"
+      ],
+      "enhanced_sha256": "f743b7aaf43cfe2950abb7b0f07df098058c94987f46e180f75a826979f0fa44",
+      "markdown_sha256": "7b0d0c144749e7e352049e36a287fa861d68136c0454339ceba3e512713664c0"
+    },
+    {
+      "source_html": "Monads/do--Notation-for-Monads/index.html",
+      "source_sha256": "16ace7c0231f406cb31c4f8c7d1fc024006aaef36522a63123628bb3ac2d9258",
+      "code_blocks": 0,
+      "headings": 2,
+      "concept_snapshots": 2,
+      "unresolved_headings": [],
+      "enhanced_sha256": "9869aab4977c7efbffd12e77ea0a370af15171759ec666b1b68084ebd172739f",
+      "markdown_sha256": "8269487a1b43a25d0e3da24fac45175af00a0e8ff6b6a4301a4504e1fc4ed84d"
+    },
+    {
+      "source_html": "Monads/index.html",
+      "source_sha256": "34455961736a8aed02cc05d48cc19bf3414d287c72906d0541418b716da47eb0",
+      "code_blocks": 0,
+      "headings": 1,
+      "concept_snapshots": 1,
+      "unresolved_headings": [],
+      "enhanced_sha256": "770ae43b17fa80e747b2f20ab780affb0b4158039e81591d82cabae3274205e4",
+      "markdown_sha256": "06879250dcd5d3e227b8671e7aba606fabb0ff56852ba05b0ab7ea09497a1ef9"
+    },
+    {
+      "source_html": "Next-Steps/index.html",
+      "source_sha256": "d5ba0ba6ae98de5fe6cba4ccff3a908cda7cdf2d69206a87d92179ddb5a796fd",
+      "code_blocks": 0,
+      "headings": 6,
+      "concept_snapshots": 6,
+      "unresolved_headings": [],
+      "enhanced_sha256": "5a20ced64bfb79242cf508230be9e076a14800cd67e9d29581fff283b80db3a9",
+      "markdown_sha256": "e2c15ebfbc78dcf1a36b749e6bc4e97ed077583bfae95e24b8a9b6fe8b294886"
+    },
+    {
+      "source_html": "Overloading-and-Type-Classes/Additional-Conveniences/index.html",
+      "source_sha256": "8b61d967440da09a65d5558a3a1d7c862e778360b577ef26cad7d04f4d747397",
+      "code_blocks": 0,
+      "headings": 3,
+      "concept_snapshots": 2,
+      "unresolved_headings": [
+        "3.7. Additional Conveniences 🔗"
+      ],
+      "enhanced_sha256": "159d1cef982ff9904588e55ebabeac6fc93b0d2098830b56be7f9b96de1b6773",
+      "markdown_sha256": "fc74d82ddfc36116f595f5edf173d2979728245dc828832ac8ea5c2f39915cdc"
+    },
+    {
+      "source_html": "Overloading-and-Type-Classes/Arrays-and-Indexing/index.html",
+      "source_sha256": "2a4ec8222d032d081082599af33c9cfde1b9e7410caa754bb7d628ed98188b97",
+      "code_blocks": 2,
+      "headings": 4,
+      "concept_snapshots": 4,
+      "unresolved_headings": [],
+      "enhanced_sha256": "c6e375583e89cd3de642d71bc2fdb3874d05215f72da207603b838f8df3ff093",
+      "markdown_sha256": "843687fc953a2fa8da7d8cc2089f6aab641ae6e4f978a13fc1c7351853404752"
+    },
+    {
+      "source_html": "Overloading-and-Type-Classes/Coercions/index.html",
+      "source_sha256": "f8b43f931d40ecf8baa7bbdfe51f82c02fa9302a7b9fa40c3d874ea6b8acf044",
+      "code_blocks": 12,
+      "headings": 10,
+      "concept_snapshots": 10,
+      "unresolved_headings": [],
+      "enhanced_sha256": "5a2e4ff2ea8e99e82e92f591208c3b8361ac6feb1370c38a2ec93f274f3e1f56",
+      "markdown_sha256": "c8236f0a28da415347408b7e5341ca4719ed1b698dc65398045cda03203ecb45"
+    },
+    {
+      "source_html": "Overloading-and-Type-Classes/Controlling-Instance-Search/index.html",
+      "source_sha256": "42c3bc0053b487d7b6ee986a9d2bda6cf9757941f6abea01596f9457203a2127",
+      "code_blocks": 10,
+      "headings": 5,
+      "concept_snapshots": 5,
+      "unresolved_headings": [],
+      "enhanced_sha256": "ae7092494e471bcfa5176f12a20c0d6484147e9c78aa4be935beb158b3730f2d",
+      "markdown_sha256": "90d8bd90180aae07b1cd147371cb130276579cee02723f8237ea732518536265"
+    },
+    {
+      "source_html": "Overloading-and-Type-Classes/Positive-Numbers/index.html",
+      "source_sha256": "83bf1098fad56668c978fdf3e6b5f6bd9c1df9450a444209bb7077bed19285f8",
+      "code_blocks": 14,
+      "headings": 10,
+      "concept_snapshots": 9,
+      "unresolved_headings": [
+        "3.1.6. Exercises 🔗"
+      ],
+      "enhanced_sha256": "875b12b7c0bb922f5ad037f1210a87e58274e767aeee30836f1382a2064368a8",
+      "markdown_sha256": "40597b541377434b07d597a87f3c51be0134bddff2d1959eb2742251031e1171"
+    },
+    {
+      "source_html": "Overloading-and-Type-Classes/Standard-Classes/index.html",
+      "source_sha256": "bdd2295b3c0e42fa9ae327087802fab175c1aa9186d21cdd466ea7c3bdcdf406",
+      "code_blocks": 7,
+      "headings": 10,
+      "concept_snapshots": 10,
+      "unresolved_headings": [],
+      "enhanced_sha256": "7b6d08c0178e565775c62254a8f296a8c527a705c4864c0a91d694d7fe2138c4",
+      "markdown_sha256": "3d5951f7afc4501a7063e4e0f4a770acbd86dfc912eabcba717f75e6c46f75a0"
+    },
+    {
+      "source_html": "Overloading-and-Type-Classes/Summary/index.html",
+      "source_sha256": "c513ef50e7be7226bc651c10d27658d8e4b8712c907f047fab716e6bdb54a7e2",
+      "code_blocks": 0,
+      "headings": 6,
+      "concept_snapshots": 5,
+      "unresolved_headings": [
+        "3.8. Summary 🔗"
+      ],
+      "enhanced_sha256": "96f943080ea37af0ca8bdfc8b6a158ec5dc263d37df475fb04cbae5b6a7fd146",
+      "markdown_sha256": "f29ab6c8a4de28da1c8aee405b79ca6ec73954329a60abafa33f2b53a3d7d61b"
+    },
+    {
+      "source_html": "Overloading-and-Type-Classes/Type-Classes-and-Polymorphism/index.html",
+      "source_sha256": "938f937424369076dc22cf39a13d1e1da0be596019f42f557e1fb07a3f0d9e5d",
+      "code_blocks": 4,
+      "headings": 7,
+      "concept_snapshots": 6,
+      "unresolved_headings": [
+        "3.2.4. Exercises 🔗"
+      ],
+      "enhanced_sha256": "b3358e8be0c0a5bb3d1fe188fbcf55f735f8c5ebce1725fefc8b75e2b8cba99e",
+      "markdown_sha256": "17b58a70282f2fc479dad9b63f7ae8deb25d667ac796dc8956d8afe091e7d504"
+    },
+    {
+      "source_html": "Overloading-and-Type-Classes/index.html",
+      "source_sha256": "252b427714d34b31619d6de11b54ac2cb533f3973c72d9be7af2bee6f024cf8d",
+      "code_blocks": 0,
+      "headings": 1,
+      "concept_snapshots": 1,
+      "unresolved_headings": [],
+      "enhanced_sha256": "25074799a3f7f71035974498cabad52df5d8abbcc380d8b1fc2f282eaa5c87ae",
+      "markdown_sha256": "999fa7874061b6627b65eabd548da07818e864c4e62eaaf33932dff4b1146344"
+    },
+    {
+      "source_html": "Programming-with-Dependent-Types/Indexed-Families/index.html",
+      "source_sha256": "10bf8b34f07c0c155fe0398b60e9e20818f3415e659070d18e2227201e06896b",
+      "code_blocks": 13,
+      "headings": 2,
+      "concept_snapshots": 2,
+      "unresolved_headings": [],
+      "enhanced_sha256": "d5b72a93f34ce9085a2c14529188e2616ff2d6669345eae71f260226d48cfc1f",
+      "markdown_sha256": "32ea85470004503c3b6884bf974aa88eb8fbf796f4f00887eaf22e3e355144f7"
+    },
+    {
+      "source_html": "Programming-with-Dependent-Types/Indices___-Parameters___-and-Universe-Levels/index.html",
+      "source_sha256": "872d427dd7b5c72997b8f9e9ab581fbe9887692abf7288f4e6f8f42e22579030",
+      "code_blocks": 5,
+      "headings": 1,
+      "concept_snapshots": 1,
+      "unresolved_headings": [],
+      "enhanced_sha256": "1b9f14a645b0ba63db803ce85d3542481b3ea43ceee8e4323dbecae913e0b64a",
+      "markdown_sha256": "ce76a69be125b2d72cb59d5ef434d1f401d9100431fddf591c238ad74849e4c9"
+    },
+    {
+      "source_html": "Programming-with-Dependent-Types/Pitfalls-of-Programming-with-Dependent-Types/index.html",
+      "source_sha256": "201401b0d8637f09e9eff61d4257001acc48ad279c5c4674b89dae18332c2f55",
+      "code_blocks": 18,
+      "headings": 6,
+      "concept_snapshots": 6,
+      "unresolved_headings": [],
+      "enhanced_sha256": "6fa28c39c2c042b57a821b0f25e2b2bbe0d04b815c3c88c45d45f2943634e318",
+      "markdown_sha256": "c384fc13a1cb0d8e7a4e44671372622c0732fe9b809e792909cfe0e43d1ba9fe"
+    },
+    {
+      "source_html": "Programming-with-Dependent-Types/Summary/index.html",
+      "source_sha256": "9c73f174150d405b8fa97b3599d5b9cae75c68c87a0203ec44eac0aa9c54a468",
+      "code_blocks": 0,
+      "headings": 5,
+      "concept_snapshots": 4,
+      "unresolved_headings": [
+        "7.6. Summary 🔗"
+      ],
+      "enhanced_sha256": "0c104142759f8c8eceb80509fcb90d40c21dc5bbc1ab383dfe59e47fedc413a2",
+      "markdown_sha256": "c561389ab75ffc0aed075428a1b1544cba2a754e23e34cb298fe87ddbad7552e"
+    },
+    {
+      "source_html": "Programming-with-Dependent-Types/The-Universe-Design-Pattern/index.html",
+      "source_sha256": "c38234c01fd6b7edc006a34fbec1f32727a04dbd4898b7ed7f8b3edf5e581096",
+      "code_blocks": 4,
+      "headings": 4,
+      "concept_snapshots": 4,
+      "unresolved_headings": [],
+      "enhanced_sha256": "f82dcdc9d9f040f9fe0f2a1ecbceba2c9c1a93dfd5d40262a97fc6b6cedac59a",
+      "markdown_sha256": "179b28878b445da0dd0b46984f982947233bde6090d436bfd168e0574fb121cc"
+    },
+    {
+      "source_html": "Programming-with-Dependent-Types/Worked-Example___-Typed-Queries/index.html",
+      "source_sha256": "007e725240125fdc28022a083fb6dff431298040e22df763958d90ef8f90026d",
+      "code_blocks": 13,
+      "headings": 20,
+      "concept_snapshots": 19,
+      "unresolved_headings": [
+        "7.3.6. Exercises 🔗"
+      ],
+      "enhanced_sha256": "5375c8027f4ab753d7d2f5baee4adfc2088112374f76de08cccf7ea7f5decd65",
+      "markdown_sha256": "fda02336998149a4b497c58ac8398b7e88f8b500569d01b9e34edcbf4ac2284c"
+    },
+    {
+      "source_html": "Programming-with-Dependent-Types/index.html",
+      "source_sha256": "8cb29de2412501aeef9f1bc9cc3e2382c144e3ce3f4fae8ea1ea89f8dc9baf97",
+      "code_blocks": 0,
+      "headings": 1,
+      "concept_snapshots": 1,
+      "unresolved_headings": [],
+      "enhanced_sha256": "002f7bbf896c0b60832ba46279fec5a4ab6e889d1956ea9fa2b8103de871e3f1",
+      "markdown_sha256": "d7c6f28d192070a1b6cb0b5db48382cfad657836e7e44f5faea538730a075dab"
+    },
+    {
+      "source_html": "Programming___-Proving___-and-Performance/Arrays-and-Termination/index.html",
+      "source_sha256": "e257d4737ecec029ede6ddb47a4fc311c6885519530153043f4866b0e4e8a6d1",
+      "code_blocks": 9,
+      "headings": 6,
+      "concept_snapshots": 6,
+      "unresolved_headings": [],
+      "enhanced_sha256": "c783315aecc285feb23d6079e5793202550aef5326fbec348bd525bf1493aeee",
+      "markdown_sha256": "2206cd0ab7cdeb1b1388039d1b802ce0cab392726a053d2478fbd78e37e352e2"
+    },
+    {
+      "source_html": "Programming___-Proving___-and-Performance/Bounded-Numbers/index.html",
+      "source_sha256": "59ca9ee1b4d5e871b9ea52d0fe015520324e0fcd7aac7fa3b33feb062d2fa734",
+      "code_blocks": 2,
+      "headings": 2,
+      "concept_snapshots": 2,
+      "unresolved_headings": [],
+      "enhanced_sha256": "0926f6af37b5048b9f6c7b103859d5c61b83ff13db3a35b601660b0b129b96c3",
+      "markdown_sha256": "e09371c7f1b6ca93f80143c95c904698f6efae41a666b254574fb978e2619ea8"
+    },
+    {
+      "source_html": "Programming___-Proving___-and-Performance/Insertion-Sort-and-Array-Mutation/index.html",
+      "source_sha256": "6fbeac1f29526806f4575009613fffe0b0bd139f66c315b61b43291142480f74",
+      "code_blocks": 16,
+      "headings": 8,
+      "concept_snapshots": 8,
+      "unresolved_headings": [],
+      "enhanced_sha256": "408cbf6a6956341b78afa2936f0f82c00bf9a3db4430f162f5ba01c5d736b3f3",
+      "markdown_sha256": "448a6147b834a5c432fb8975eec7e4f516ebc189f3060dd91686c683888a4cee"
+    },
+    {
+      "source_html": "Programming___-Proving___-and-Performance/More-Inequalities/index.html",
+      "source_sha256": "2aef331a12dbdb4b1c293de670eaa006567d4332cd7c7cbfe8d81d0cd517e5e2",
+      "code_blocks": 29,
+      "headings": 9,
+      "concept_snapshots": 9,
+      "unresolved_headings": [],
+      "enhanced_sha256": "66ec404de09a10ebaf39587a04fa9e5f910ea376cc313cd1969551c161e709da",
+      "markdown_sha256": "6031c1cccb946ec654ece353656269626c722ad8357c8d3eeae5fbc392126f81"
+    },
+    {
+      "source_html": "Programming___-Proving___-and-Performance/Proving-Equivalence/index.html",
+      "source_sha256": "791bac54d09179201d285972317686f115ef4c90e2c09e79335b6ea99e7d0925",
+      "code_blocks": 26,
+      "headings": 9,
+      "concept_snapshots": 7,
+      "unresolved_headings": [
+        "8.2.4. Exercise 🔗",
+        "8.2.4.2. More Accumulator Proofs 🔗"
+      ],
+      "enhanced_sha256": "be45b0062ab0c0c1fbfadf551a1f9a1f724af5cf52f0c653e5358547cb54cbd2",
+      "markdown_sha256": "bff37944c32f8e806ee422f874d52bce0e76b97754f6225310504a8bcb5eb2b1"
+    },
+    {
+      "source_html": "Programming___-Proving___-and-Performance/Special-Types/index.html",
+      "source_sha256": "fa869a7284684198ec5f9344ac493704eb8b79865c3eb2e82979e765218aedab",
+      "code_blocks": 0,
+      "headings": 2,
+      "concept_snapshots": 2,
+      "unresolved_headings": [],
+      "enhanced_sha256": "9897e999576d6b3a3579beb6f9489a16b43c941eed29718b266c2bef019572e2",
+      "markdown_sha256": "71f631dbc889321b532f82f341531ec446f51c933c43950f40b3ab72ba9b549d"
+    },
+    {
+      "source_html": "Programming___-Proving___-and-Performance/Summary/index.html",
+      "source_sha256": "c01074c2a9b711c5b81ecd1eef5d583e66f812f672cc8a581ef71918e9cd2a42",
+      "code_blocks": 0,
+      "headings": 7,
+      "concept_snapshots": 6,
+      "unresolved_headings": [
+        "8.8. Summary 🔗"
+      ],
+      "enhanced_sha256": "ef2816bfd5073520d9595680f7405a0b45a47081e699ae712c6f67d7e34ee726",
+      "markdown_sha256": "b78ee903cfc939b75af8b949e6f0ded6ab27f195fb8dac828f89372f995d7df2"
+    },
+    {
+      "source_html": "Programming___-Proving___-and-Performance/Tail-Recursion/index.html",
+      "source_sha256": "129daa76ce1b4c666dac215256b9207c2331a487f89529e18a5687c5be276c3e",
+      "code_blocks": 0,
+      "headings": 5,
+      "concept_snapshots": 5,
+      "unresolved_headings": [],
+      "enhanced_sha256": "4eb3e2c27370470a11140967d2927f23d334f84ad035af4a7c4a647461c2b758",
+      "markdown_sha256": "5eb3d3da0418814f0d74c36b69317430275a6f2091631615962f07003a3aa17d"
+    },
+    {
+      "source_html": "Programming___-Proving___-and-Performance/index.html",
+      "source_sha256": "22b647b3599762af98678672227637f5e11063c1304a0cad51f5a3f77ad34735",
+      "code_blocks": 0,
+      "headings": 1,
+      "concept_snapshots": 1,
+      "unresolved_headings": [],
+      "enhanced_sha256": "795838f16d111ab559adf48db44418d2ee755ff149b3d416b5ca128a3e91afea",
+      "markdown_sha256": "34d58fcd94d2084c5e731872a518609376d4812dd1d974fc0a7a3d423e3b7ab3"
+    },
+    {
+      "source_html": "find/index.html",
+      "source_sha256": "4375c5217fed3ac37fd5491f93ed95b81b400beb806e4361749681500e4632dc",
+      "code_blocks": 0,
+      "headings": 1,
+      "concept_snapshots": 0,
+      "unresolved_headings": [],
+      "enhanced_sha256": "193a6fbd0c823ad0844415570dfa5cd6e5d5d101d6de59aa7cd9803793755e4b",
+      "markdown_sha256": "e7959f700fccd59a6517becbd10bda15ecfa37f3d76068f3be37c04cb0ec1f71"
+    },
+    {
+      "source_html": "index.html",
+      "source_sha256": "8b6dcffb1f04c653525b63e3fd3769a3501cef7e7c0ebaa4f385e41e633524fd",
+      "code_blocks": 0,
+      "headings": 2,
+      "concept_snapshots": 1,
+      "unresolved_headings": [],
+      "enhanced_sha256": "3db1dc1d9dcfb6dc1c2f53332bcf55deff354e4b837a2ccaf9eb210b918c49e7",
+      "markdown_sha256": "96a59de7ca438b18419a4c0c6c84748c6544b75cbbf7108ed8f15f2d209dbf0a"
+    },
+    {
+      "source_html": "search/index.html",
+      "source_sha256": "2c64a838629596c59e4eb20eb519dd7acc36caf0bb5b66e734bc0f037e84aef8",
+      "code_blocks": 0,
+      "headings": 1,
+      "concept_snapshots": 1,
+      "unresolved_headings": [],
+      "enhanced_sha256": "ff1e2c7f5703a60a1ad922dd2cb24fed830d37b272680211cae5fe39a4965e32",
+      "markdown_sha256": "0bd9b9e2d37bcb248cd6ccc190678684d92c8ff311628ef06492d829731a5447"
+    }
+  ],
+  "page_count": 73,
+  "original_code_blocks": 401,
+  "source_explanations": 372,
+  "original_asset_inventory": {
+    "-verso-data/katex/fonts/KaTeX_AMS-Regular.ttf": {
+      "kind": "file",
+      "sha256": "68534840bcfdd2bffb6f0e8deb48684dd01e7f04ea2813267577afb906de1d13"
+    },
+    "-verso-data/katex/fonts/KaTeX_AMS-Regular.woff": {
+      "kind": "file",
+      "sha256": "30da91e84c893f875e252689faebdc590b2871145e8adc7f9a9d4dbd8ce0b251"
+    },
+    "-verso-data/katex/fonts/KaTeX_AMS-Regular.woff2": {
+      "kind": "file",
+      "sha256": "0cdd387c9590a1a9f9794560022dbb59654a7d86f187aa0c81495ad42d3a7308"
+    },
+    "-verso-data/katex/fonts/KaTeX_Caligraphic-Bold.ttf": {
+      "kind": "file",
+      "sha256": "07d8e303ce4fc12b4bb54f1004170dd190a1f3db45d400fe68060df3e0897268"
+    },
+    "-verso-data/katex/fonts/KaTeX_Caligraphic-Bold.woff": {
+      "kind": "file",
+      "sha256": "1ae6bd7475590e97e7f145a89e09ccde322f7a6bc0b91607b1c8b8ee28290fed"
+    },
+    "-verso-data/katex/fonts/KaTeX_Caligraphic-Bold.woff2": {
+      "kind": "file",
+      "sha256": "de7701e42cf1f4cf0b766c03fb27977207eee2f4fd5d76fa82188406da43ea4c"
+    },
+    "-verso-data/katex/fonts/KaTeX_Caligraphic-Regular.ttf": {
+      "kind": "file",
+      "sha256": "ed0b74372feefcbb9c0666b2e210da37b7e49fa7fbbf3eeb11db5f693dacfbb7"
+    },
+    "-verso-data/katex/fonts/KaTeX_Caligraphic-Regular.woff": {
+      "kind": "file",
+      "sha256": "3398dd02302557a793f2863f88e02d96ce10df2abffa07c8e9fa90775116e65c"
+    },
+    "-verso-data/katex/fonts/KaTeX_Caligraphic-Regular.woff2": {
+      "kind": "file",
+      "sha256": "5d53e70ad607c2352162dec9e0923fb54ecdafaccbf604cd8dcf7d00facb989b"
+    },
+    "-verso-data/katex/fonts/KaTeX_Fraktur-Bold.ttf": {
+      "kind": "file",
+      "sha256": "9163df9c7122432e6495b4229fa9071cf9ae86a758ae5efc4924ec2e1a6dbce1"
+    },
+    "-verso-data/katex/fonts/KaTeX_Fraktur-Bold.woff": {
+      "kind": "file",
+      "sha256": "9be7ceb88004ab8ad124082246fbfcca4091e36385d4ec6ed1df67375dad50fb"
+    },
+    "-verso-data/katex/fonts/KaTeX_Fraktur-Bold.woff2": {
+      "kind": "file",
+      "sha256": "74444efd593c005e3f4573b44524704c0af0a937fe911cca9e94068d0d140d3f"
+    },
+    "-verso-data/katex/fonts/KaTeX_Fraktur-Regular.ttf": {
+      "kind": "file",
+      "sha256": "1e6f9579e90e2cac37f8f60a597c436e075c114385652b7cbeb0dec0421291b3"
+    },
+    "-verso-data/katex/fonts/KaTeX_Fraktur-Regular.woff": {
+      "kind": "file",
+      "sha256": "5e28753be717dac97f559f49bc10be9cf3c124ddcabda6659d11cb68febc6463"
+    },
+    "-verso-data/katex/fonts/KaTeX_Fraktur-Regular.woff2": {
+      "kind": "file",
+      "sha256": "51814d270d06ff0255dba0799994fa4d8c84d11f09951d47595f4abb1f3602dc"
+    },
+    "-verso-data/katex/fonts/KaTeX_Main-Bold.ttf": {
+      "kind": "file",
+      "sha256": "138ac28d1663b3037e9c5f52371fa5c63d8324f4a38d22cd573e6ea3a3fd0cf8"
+    },
+    "-verso-data/katex/fonts/KaTeX_Main-Bold.woff": {
+      "kind": "file",
+      "sha256": "c76c5d696297d51b9cb1639c7da4334f0e7dec81b42b11213b5e25ef671bb822"
+    },
+    "-verso-data/katex/fonts/KaTeX_Main-Bold.woff2": {
+      "kind": "file",
+      "sha256": "0f60d1b897938ec918c8ce073092411baf9438f6739465693ff18b0f9d20b021"
+    },
+    "-verso-data/katex/fonts/KaTeX_Main-BoldItalic.ttf": {
+      "kind": "file",
+      "sha256": "70ee1f64a20f2048c21940ef46d0144fd215baa953ca69afd1e31e98544f708f"
+    },
+    "-verso-data/katex/fonts/KaTeX_Main-BoldItalic.woff": {
+      "kind": "file",
+      "sha256": "a6f7ec0d846ac7ad975adb8959c37ed49b94acbc4ae436db9ce9e20287e4a64c"
+    },
+    "-verso-data/katex/fonts/KaTeX_Main-BoldItalic.woff2": {
+      "kind": "file",
+      "sha256": "99cd42a3c072d918f2f44984a807cf7aa16e13545fd0875fc07c6c65f99e715b"
+    },
+    "-verso-data/katex/fonts/KaTeX_Main-Italic.ttf": {
+      "kind": "file",
+      "sha256": "0d85ae7cc30f23790a7f1a58c4a112fdca8aae769b6ba11429af1d98b1b6cb3a"
+    },
+    "-verso-data/katex/fonts/KaTeX_Main-Italic.woff": {
+      "kind": "file",
+      "sha256": "f1d6ef86f3b11a528bd5185199bd2443ecb2b0dead96d88674b5a2c12be24bdf"
+    },
+    "-verso-data/katex/fonts/KaTeX_Main-Italic.woff2": {
+      "kind": "file",
+      "sha256": "97479ca6cce906abc961ecac96faa5f9ca2e61b8e7670d475826bcdee9a7c267"
+    },
+    "-verso-data/katex/fonts/KaTeX_Main-Regular.ttf": {
+      "kind": "file",
+      "sha256": "d0332f52868370fd83ae7fa46470f90c8f2eab2fcf12bc4f88080b340c95a830"
+    },
+    "-verso-data/katex/fonts/KaTeX_Main-Regular.woff": {
+      "kind": "file",
+      "sha256": "c6368d87e8a1a3a5d337623d83d8dc4b868f242a9ad476237d6f8d1e0f168cdc"
+    },
+    "-verso-data/katex/fonts/KaTeX_Main-Regular.woff2": {
+      "kind": "file",
+      "sha256": "c2342cd8b869e01752a9321dc17213fc40d4d04c79688c1d43f2cf316abd7866"
+    },
+    "-verso-data/katex/fonts/KaTeX_Math-BoldItalic.ttf": {
+      "kind": "file",
+      "sha256": "f9377ab0271cda59af24bcffbd46a4d0c8a3572ffafdbb38de2ad5ea7b0d5ee5"
+    },
+    "-verso-data/katex/fonts/KaTeX_Math-BoldItalic.woff": {
+      "kind": "file",
+      "sha256": "850c0af5c2238497febaf5e461d880bf458c341f42f4f330f1b1ab5698b1998e"
+    },
+    "-verso-data/katex/fonts/KaTeX_Math-BoldItalic.woff2": {
+      "kind": "file",
+      "sha256": "dc47344dbb6cb5b655c8460d561f4df5f501b90c804ad3c6cec65fe322351ab1"
+    },
+    "-verso-data/katex/fonts/KaTeX_Math-Italic.ttf": {
+      "kind": "file",
+      "sha256": "08ce98e51b04d58945a301e639e02b6998af29fdfd61a7b8afdd07bbfc479d4a"
+    },
+    "-verso-data/katex/fonts/KaTeX_Math-Italic.woff": {
+      "kind": "file",
+      "sha256": "8a8d244581371912b8f3f5a23e2437cb2a59cd9bcaebb0346e722c05737a2571"
+    },
+    "-verso-data/katex/fonts/KaTeX_Math-Italic.woff2": {
+      "kind": "file",
+      "sha256": "7af58c5ec8f132a2ddde9027c6d7814decce4d3b822a11192a42a20e2e973264"
+    },
+    "-verso-data/katex/fonts/KaTeX_SansSerif-Bold.ttf": {
+      "kind": "file",
+      "sha256": "1ece03f79f95277d57dc7f6b435a74e1379b0d46104a8530286b60ff49369ea0"
+    },
+    "-verso-data/katex/fonts/KaTeX_SansSerif-Bold.woff": {
+      "kind": "file",
+      "sha256": "ece03cfd83e22c212cdef66feb8442d25a083beb988db3f1883f3f9738d750ba"
+    },
+    "-verso-data/katex/fonts/KaTeX_SansSerif-Bold.woff2": {
+      "kind": "file",
+      "sha256": "e99ae51144bf1232efcc1bfe5add36262c6866b0faab24fa75740e1b98577a62"
+    },
+    "-verso-data/katex/fonts/KaTeX_SansSerif-Italic.ttf": {
+      "kind": "file",
+      "sha256": "3931dd81faed86ba021bb2bbdc36f5bed9a38d6b4f4077aca59b265aa1b02083"
+    },
+    "-verso-data/katex/fonts/KaTeX_SansSerif-Italic.woff": {
+      "kind": "file",
+      "sha256": "91ee67500cc0129aa0ace3ac5c61ff1692102f0f31d02b69347fba35dcb75bf2"
+    },
+    "-verso-data/katex/fonts/KaTeX_SansSerif-Italic.woff2": {
+      "kind": "file",
+      "sha256": "00b26ac825e2095056396e0553b8ac26d3f8ad158c3826e28b4c45b385c4714a"
+    },
+    "-verso-data/katex/fonts/KaTeX_SansSerif-Regular.ttf": {
+      "kind": "file",
+      "sha256": "f36ea897e19f4a2e571d1e900e4e3710e438deb05a842486045ba0a3e616a4ad"
+    },
+    "-verso-data/katex/fonts/KaTeX_SansSerif-Regular.woff": {
+      "kind": "file",
+      "sha256": "11e4dc8a6471ff6d6ee561d53d10fde8f7489e798257ff449c5d37c197435605"
+    },
+    "-verso-data/katex/fonts/KaTeX_SansSerif-Regular.woff2": {
+      "kind": "file",
+      "sha256": "68e8c73ef42afd3ccec58bf0fba302cce448938e7fc020a5e31f8a952eee1342"
+    },
+    "-verso-data/katex/fonts/KaTeX_Script-Regular.ttf": {
+      "kind": "file",
+      "sha256": "1c67f068fea8bb09bf099c088b1cf64bd27516a6e07f4684344873564bb66a67"
+    },
+    "-verso-data/katex/fonts/KaTeX_Script-Regular.woff": {
+      "kind": "file",
+      "sha256": "d96cdf2b3bdd4d64a8fd5f74a4c467f123a8a73931cd435889f08ffaf9bf947a"
+    },
+    "-verso-data/katex/fonts/KaTeX_Script-Regular.woff2": {
+      "kind": "file",
+      "sha256": "036d4e95149b69ff9bcc0cd55771efeb25ffa3947293e69acd78d5ac328c684b"
+    },
+    "-verso-data/katex/fonts/KaTeX_Size1-Regular.ttf": {
+      "kind": "file",
+      "sha256": "95b6d2f1a50173bfedb8c63e1d1c99b10427d0a4df4201cb44513b226951a22b"
+    },
+    "-verso-data/katex/fonts/KaTeX_Size1-Regular.woff": {
+      "kind": "file",
+      "sha256": "c943cc986384f59e86bea5fd7dc50a9c4dfe567a7c05eb40d6790720dead97c9"
+    },
+    "-verso-data/katex/fonts/KaTeX_Size1-Regular.woff2": {
+      "kind": "file",
+      "sha256": "6b47c40166b6dbe21a5dfca7718413f2147fd2399be1ba605d8ad39cedf25dfe"
+    },
+    "-verso-data/katex/fonts/KaTeX_Size2-Regular.ttf": {
+      "kind": "file",
+      "sha256": "a6b2099fb555c60e3a0db3a08842ebf1d732c6eb4e4bf44913613bed4fc4e39b"
+    },
+    "-verso-data/katex/fonts/KaTeX_Size2-Regular.woff": {
+      "kind": "file",
+      "sha256": "2014c523c3210bcc166648c4d4cc57f05b747df07a24277bf71c51e67dc79e3d"
+    },
+    "-verso-data/katex/fonts/KaTeX_Size2-Regular.woff2": {
+      "kind": "file",
+      "sha256": "d04c54219f9eaec6d4d4fd42dfb28785975a4794d6b2fc71e566b9cd6db842dd"
+    },
+    "-verso-data/katex/fonts/KaTeX_Size3-Regular.ttf": {
+      "kind": "file",
+      "sha256": "500e04d54f0d51666332c9d2089aa803be22aa878eca539e59fa53c6e522b082"
+    },
+    "-verso-data/katex/fonts/KaTeX_Size3-Regular.woff": {
+      "kind": "file",
+      "sha256": "6ab6b62e9b62dae2c00dd90f791bd10950be0ecc3490d7d6045f51c2e8fe0949"
+    },
+    "-verso-data/katex/fonts/KaTeX_Size3-Regular.woff2": {
+      "kind": "file",
+      "sha256": "73d591271b1604960cb10bb90fee021670af7297017e0e98480b332d11f51995"
+    },
+    "-verso-data/katex/fonts/KaTeX_Size4-Regular.ttf": {
+      "kind": "file",
+      "sha256": "c647367d1dd4e162468717d020e1fc0f1dc5c26ebfdffbe55261713bf88c5877"
+    },
+    "-verso-data/katex/fonts/KaTeX_Size4-Regular.woff": {
+      "kind": "file",
+      "sha256": "99f9c6750b489c9462bf04900bd3f939df9b829339daaaaa99ef5495cdddea58"
+    },
+    "-verso-data/katex/fonts/KaTeX_Size4-Regular.woff2": {
+      "kind": "file",
+      "sha256": "a4af7d414440a1c1790825cfb700cf9cf43b0f2c4b04f0ebc523011ad9853ec0"
+    },
+    "-verso-data/katex/fonts/KaTeX_Typewriter-Regular.ttf": {
+      "kind": "file",
+      "sha256": "f01f3e87d9c6a61c0c081ceb577abd864eb00a612f7ac1620dd6915fad2ef5aa"
+    },
+    "-verso-data/katex/fonts/KaTeX_Typewriter-Regular.woff": {
+      "kind": "file",
+      "sha256": "e14fed02b1aba7ce9f5afd5844b5d0321b22351febc720e0de8b8723527609f7"
+    },
+    "-verso-data/katex/fonts/KaTeX_Typewriter-Regular.woff2": {
+      "kind": "file",
+      "sha256": "71d517d67827787cfabdf186914cc3358eda539e37931941f2b2fd4a21f68c0b"
+    },
+    "-verso-data/katex/katex.css": {
+      "kind": "file",
+      "sha256": "19095127357ed6d29fe0a63a6b000c913a89f7f1963b765dd3715e97c9852e75"
+    },
+    "-verso-data/katex/katex.js": {
+      "kind": "file",
+      "sha256": "e8d885505949f3a5f4abdd5dd0d53696bd1371ad26ffbf4f310dcd77c8cdae89"
+    },
+    "-verso-data/katex/math.js": {
+      "kind": "file",
+      "sha256": "13d9988cff8c2d27cc1a3c96454b482d30314e2b9ace27047f1e063ab30240dd"
+    },
+    "-verso-data/popper.min.js": {
+      "kind": "file",
+      "sha256": "c212f4b505a86352aed62b24a8f16f999f821ecbe6456c7f3c8a04bc87968782"
+    },
+    "-verso-data/popper.min.js.map": {
+      "kind": "file",
+      "sha256": "4b4fb67abd5aff6804b248baa086ed14880e8017a00186df496eae6c347d0c8e"
+    },
+    "-verso-data/tippy-border.css": {
+      "kind": "file",
+      "sha256": "bd2dc7de7b0177047251280a8331b7d97ed750ea00004e69981fc7de517da995"
+    },
+    "-verso-data/tippy-bundle.umd.min.js": {
+      "kind": "file",
+      "sha256": "3f0fe70eb26ccf28f6887a192e29d38dd7ef7c2f079a73304ad42ddc7bed37de"
+    },
+    "-verso-data/tippy-bundle.umd.min.js.map": {
+      "kind": "file",
+      "sha256": "1bcea1611e9c9ecf3d061ba249ca98b2adb67a02e6753056d14509cb5abce35d"
+    },
+    "-verso-docs.json": {
+      "kind": "file",
+      "sha256": "49619c770bb55170d557e049cf27f5eba4400510f40d6c044f48e2e82eab8e94"
+    },
+    "-verso-search/README.txt": {
+      "kind": "file",
+      "sha256": "c2592e93a155651c869ea357d9b4c8bbd28920eb841b6a7c984841fd5fe9993a"
+    },
+    "-verso-search/domain-display.css": {
+      "kind": "file",
+      "sha256": "fd6d62aac1c2aa6841e4ac97bf686ccca64423c89084fd22cf7fb0bd1c82e7ec"
+    },
+    "-verso-search/domain-mappers.d.ts": {
+      "kind": "file",
+      "sha256": "b347aa85cd1497191ce7e7166ef113e7c4c83f79345a6a4f7816a2155a5f7665"
+    },
+    "-verso-search/domain-mappers.js": {
+      "kind": "file",
+      "sha256": "55074411b71659afbc6ded23b7071e8f9acaeb97696ed54a3bf233b0ec4e3613"
+    },
+    "-verso-search/elasticlunr.min.js": {
+      "kind": "file",
+      "sha256": "e528591249f3f4f2f091f59113b51453d2fe7d062b856f62caca135e4a57d7a0"
+    },
+    "-verso-search/fuzzysort.d.ts": {
+      "kind": "file",
+      "sha256": "7c3f3de27ad6eb8ab420f1aade753483e1a597820ff7b5d80fa210e1c6f7c4e5"
+    },
+    "-verso-search/fuzzysort.min.js": {
+      "kind": "file",
+      "sha256": "6be6f5eeab6b0e22fab168c589daa7b9f910104c3afb939e7cd700893ccff13a"
+    },
+    "-verso-search/jsconfig.json": {
+      "kind": "file",
+      "sha256": "a5631cd615d28299f6615448ff44263110b8663f7f55edb51f0d32236f401126"
+    },
+    "-verso-search/licenses.md": {
+      "kind": "file",
+      "sha256": "437e3dad49ac48ebfeabcaaf4c020b6580b13690b24ca0c5b31e4f3c797b0e43"
+    },
+    "-verso-search/search-box.css": {
+      "kind": "file",
+      "sha256": "f7c742f4b6439d1f4b027a4da1f22994939d7b34f5af6e2a260fc03497003a5e"
+    },
+    "-verso-search/search-box.js": {
+      "kind": "file",
+      "sha256": "77d550fd3ae55ac4711253946d5ba5e2faa992deb574210a9bd8c901bdc7170f"
+    },
+    "-verso-search/search-config.js": {
+      "kind": "file",
+      "sha256": "a6a40563e2b23f62dc52c54a3d51d7b35b3eb2cb937745d7115a843a1737e59e"
+    },
+    "-verso-search/search-highlight.css": {
+      "kind": "file",
+      "sha256": "b99e8b97d255b99dd1b56320227d0ce44a947e87696d424200082911df8fc8fc"
+    },
+    "-verso-search/search-highlight.js": {
+      "kind": "file",
+      "sha256": "395e1db010df24f40b1aebe4bd7269d7962d5f85bff50a0b970527d5d15d8011"
+    },
+    "-verso-search/search-init.js": {
+      "kind": "file",
+      "sha256": "28e7288c0e71766c843fc7454613496e322578771b28e691a4a0b60f4b0313b1"
+    },
+    "-verso-search/search-page.css": {
+      "kind": "file",
+      "sha256": "6a1bd3425d469a7149ecef343ca9b339a765efcefca694787f7d57899ca40912"
+    },
+    "-verso-search/search-page.js": {
+      "kind": "file",
+      "sha256": "73a444f09a313e7fde46fdbbdf359261eced7ba3e77f8ea5192f3a0219e794ff"
+    },
+    "-verso-search/searchIndex.js": {
+      "kind": "file",
+      "sha256": "be7e41ae3bba0b3106ab7336eda707c57ea9a5c790aa28c38a87f48bc4e5e17b"
+    },
+    "-verso-search/searchIndex_0.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "17a84cbdcbe49d14f883ff424851675bcbc0f91221215bf19934160c8d938ffd"
+    },
+    "-verso-search/searchIndex_1.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "92efc018ef05f51277f18caca3956b7523127121ddc71b74c608a970f67bf3a4"
+    },
+    "-verso-search/searchIndex_10.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "75ab26298f1f4c68f3734ea2529c4ad42c01e0ba9d6ebcbb24e72ccbdfaf819b"
+    },
+    "-verso-search/searchIndex_100.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "bbf6f3053e3c370f0cb37ca89504892cabfb47cac11630030b2dc9e0debd7cf8"
+    },
+    "-verso-search/searchIndex_101.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "b3dc739972d57be994b9b127958a782187b8b8acaf16b5af233b86d25f75e878"
+    },
+    "-verso-search/searchIndex_102.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "dcdac9749a0e1b5d03656b2f9b605f754540ba989a88e1351ef823ea58e195d5"
+    },
+    "-verso-search/searchIndex_104.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "00a7cf19a92a57dc8cf719901578bc078b52bdfcd64f3a24e9964c6db3b8f330"
+    },
+    "-verso-search/searchIndex_106.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "5d8dcb2697c08ddb7d99f8b5f27b625c8bc8dbe11fc7ddc1c2bd1a01536fcf72"
+    },
+    "-verso-search/searchIndex_111.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "0094e0c48f84372a93164546f55b95f48e81608a01778846f271dfa0e22a6427"
+    },
+    "-verso-search/searchIndex_112.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "500eba1bf93b47aead0d214c13734a51864059929117a75051ce48b5bdce65c8"
+    },
+    "-verso-search/searchIndex_113.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "b37ba869f709d270c45890497774a8a866892dca03fd7c1474fe393ee61eebc3"
+    },
+    "-verso-search/searchIndex_115.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "ceda50f02f6751c61371a478aa6f4d98cf3fd8713428a11c4a5c4ca57b77079f"
+    },
+    "-verso-search/searchIndex_116.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "9f0f3e15ba29d47853c8e0eb1bc69716edb2701e484911f07d0ae4c60f75662a"
+    },
+    "-verso-search/searchIndex_118.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "6028beada7970de701eec67761d8913cb53737ebdbc236f270461648095b079a"
+    },
+    "-verso-search/searchIndex_119.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "71b3d2f7160be02cf039bdf637c23902311deeef5161ac13ce8ca89bdb962db7"
+    },
+    "-verso-search/searchIndex_12.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "b35d074bd6a70f2e74b91655405de78d09f3403ed842087d98a848fadf717b39"
+    },
+    "-verso-search/searchIndex_120.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "eb7fd64022024d5fe98f04eab2749205e02c5859f0c1f2f6c974e59c7fb67fb0"
+    },
+    "-verso-search/searchIndex_121.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "160c917ce6dde7330fec31b3b2b184f45133435be2dd91af8a168405866e3524"
+    },
+    "-verso-search/searchIndex_122.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "bf3503fb9369c372033880171bcabb975f2f3b7614967d04a8631f6e9a629dd0"
+    },
+    "-verso-search/searchIndex_125.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "7b8c2b245b2994c1255fd4528a07379c90cda8006f8c689150c07926ef7faa13"
+    },
+    "-verso-search/searchIndex_126.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "a87fc519d11bbd9631b0685dc8697a506f9b4a36df5b3e42717c6d3cb13b7acf"
+    },
+    "-verso-search/searchIndex_128.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "82c67945c8f492e2fa80e2a289c06e96c11b710dc4d80b415cfc911bcfc9d88e"
+    },
+    "-verso-search/searchIndex_129.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "a9e098c455f84870d589a6bc26c0ecd91a82ca7c6828223f7b4ddd42a417ba8d"
+    },
+    "-verso-search/searchIndex_13.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "039935c9d1eab77b6279c2a575e27525ed9f3d4078ffda3c4cb63e86aa9b127d"
+    },
+    "-verso-search/searchIndex_130.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "1a0067ba2a1ade719445b88525856a65138b3cfe77c024db346a0aadd39e574e"
+    },
+    "-verso-search/searchIndex_131.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "86d52941aa4e98c647e95c4acd6d0869737fb577c4ee464cee932ac01bcd7fd0"
+    },
+    "-verso-search/searchIndex_132.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "3960576e4fc9aa4f2bba39b73fa50c1c889c175b1f2b9a76ad928c2d2443f29a"
+    },
+    "-verso-search/searchIndex_133.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "eae64e2864a64e7236f720f6fb482ca85f5e417ca3b9781d0a957b5b7787675e"
+    },
+    "-verso-search/searchIndex_134.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "ef5b7d8dc41a4beba56a5cf77fb5a203b8fdfd7d75c863b330da8cc2af0a1182"
+    },
+    "-verso-search/searchIndex_136.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "69598353fb8e28fbde608460aa828aa902a35acd1821ee308b4f30cb99cc1819"
+    },
+    "-verso-search/searchIndex_137.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "b67611331fae4de504c1c9ec7ab9b159e719bb89ec69aa945939a3c675847593"
+    },
+    "-verso-search/searchIndex_138.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "c3828c6a1569cb710edf00bb011be5f30da1f477be89499873d3d26f3147e602"
+    },
+    "-verso-search/searchIndex_139.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "6711d1893c3cf01af8565b646361e4a04e1600830e878e75ab8be7ae1e936326"
+    },
+    "-verso-search/searchIndex_14.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "4d99bc9774991ede19fe95c2c358b69f4ae7969f3fa95c36374769a09333ce8c"
+    },
+    "-verso-search/searchIndex_140.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "5363a21362234ac0cf8073fa60c864d7a4c19ecd6e181022336fba6a348b464d"
+    },
+    "-verso-search/searchIndex_142.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "c1edfbe333d344289bec474b48682e54d8e60f82896536ebfad38d48b53e0b57"
+    },
+    "-verso-search/searchIndex_144.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "c806c91214e7c8fbba0471130f22dfde5b0bab2d70645dfdd540ec2062405fdc"
+    },
+    "-verso-search/searchIndex_145.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "c1190f869a5c8d13c21222c5d87b03c03fb56412ad9da6a6232b750ff1ca1ce5"
+    },
+    "-verso-search/searchIndex_146.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "7116102f8161f51212cdf0d0cc676b5c9946107c89e883bf438acd249cc377be"
+    },
+    "-verso-search/searchIndex_147.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "5b6e1cd3e4716bc4e4e94aa6bf108bbd2856da63229893fe3d9c23c1f8b6f4c4"
+    },
+    "-verso-search/searchIndex_15.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "77a633f5d982205a58b25d4a5b55c6bb702995a8bc0ce60b7a9ee05e64b639d0"
+    },
+    "-verso-search/searchIndex_151.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "b9ff68376375429accf1c0592a966c6f236fc4f2cb81a94d7d81531c426a2dc4"
+    },
+    "-verso-search/searchIndex_152.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "44b27a7ea920a31ac8f70f207c2347aef8235e6907b32332fff728d74c3025e0"
+    },
+    "-verso-search/searchIndex_153.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "27a3e801f02b78162bf26beb8c0760882c5f6873acc99ae0644a7417d51416d5"
+    },
+    "-verso-search/searchIndex_155.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "923176305dbf429e81645eee75a5151e4171f5a34bb346a1dd62e5d5b911ac0d"
+    },
+    "-verso-search/searchIndex_156.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "8891ca38858b129bfccec6ce506420980d1456e5d971984dbd88b420925e8776"
+    },
+    "-verso-search/searchIndex_158.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "43bb7f3e6e2adf1e211129b1e21c1b58317d402617c2c8078d86696cf3cfa7ab"
+    },
+    "-verso-search/searchIndex_159.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "06cafff23311742ede07587fc97773b00796903b9f7a988e29865202123d7a50"
+    },
+    "-verso-search/searchIndex_16.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "00c8554dd3bea302cd90e87f909010cc30c857b11b45f5b9725bb7510d421b79"
+    },
+    "-verso-search/searchIndex_160.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "ba3281555c39040105baa7f28a7830b1fbbd09861d2c129ab2fa126e36690d74"
+    },
+    "-verso-search/searchIndex_161.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "1173c3e9c4e1819a550608bdb2f3180b92c304293b6d2ac7c29078309d4e2e01"
+    },
+    "-verso-search/searchIndex_163.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "2b94a63055bd46e5d74c52dbbcd69ae627587f419b40ac000e643263129dc78b"
+    },
+    "-verso-search/searchIndex_164.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "1c56fe06c31b28048966188faf5ba8fbc88cba466a0e3ca3a97cb2a445367358"
+    },
+    "-verso-search/searchIndex_165.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "9f510943758e44858e91327bd1071bea4f2030273390f25ff5ef0908a110ab9e"
+    },
+    "-verso-search/searchIndex_166.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "c19141b76a1efe667bcbb934cc4979c1a301ee0c21911d96081475bf8cbbed71"
+    },
+    "-verso-search/searchIndex_167.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "5bc8d9431773c6e18b7816f1193ba5be4f19829ead0161c3b088e4113547665b"
+    },
+    "-verso-search/searchIndex_168.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "71bf5ad297436113e557841da7c86ed8e150fdf7e8dfd842c4434157b5ad0ac3"
+    },
+    "-verso-search/searchIndex_169.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "a9b971e9b63da78961abf0d23a1e11e16510c3cebeb78c6febb538121bb24e6a"
+    },
+    "-verso-search/searchIndex_17.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "9ae715a5359ae96751aaaa918781306740731c4a96354e24003a7fd4f6333075"
+    },
+    "-verso-search/searchIndex_170.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "e2e7bbdc81aa8a161992a821b2ad5f3953b50f7dfad895534b34805256fe2597"
+    },
+    "-verso-search/searchIndex_172.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "7975d5d8d740c3c95134edcba600518f0f0d6856bb094d1bdf2c367a19607b08"
+    },
+    "-verso-search/searchIndex_173.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "0f07b57713c3b20039e3e3c2f6e7f6263d27a487af97cd381b1054aee673dcff"
+    },
+    "-verso-search/searchIndex_174.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "8b3cf73912d954871aa2d77c54db2b7d56e7157f7c07576e2359b559f5c0106f"
+    },
+    "-verso-search/searchIndex_175.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "d66c0a1ee62f0a5e7139b4cc608d6b153f292acf7460a790296acbcbb15a77bb"
+    },
+    "-verso-search/searchIndex_176.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "db95ab7634cfd642835674590aed83ffa61fdbab6d80634c1c9815f9e0b29592"
+    },
+    "-verso-search/searchIndex_177.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "e14cb56e8ebe2be0b950587d2c362162ccda466a0348b63bef63a72fa4edc4ca"
+    },
+    "-verso-search/searchIndex_178.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "5bd64c16f8a7c775f499b344a3c071300ccbece701d0a5a8e80314a4e22e7cce"
+    },
+    "-verso-search/searchIndex_179.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "0cc8cf11ea158ca6bb9803ef01481704387f7529c7f5d0c955ee18e7b1d07999"
+    },
+    "-verso-search/searchIndex_18.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "9e5d06eaedb2fe54302d47b487fba0e7fb14e70e03bcd62ccbf09e82f253fc04"
+    },
+    "-verso-search/searchIndex_180.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "bb1ef6d48bf5c3529280ac4774f463e1251542024baf6c7dacce43723f2dc936"
+    },
+    "-verso-search/searchIndex_181.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "996b8f126360dbe8ca915f2f5cd2b97373c73913d8a083b09550135398f7b088"
+    },
+    "-verso-search/searchIndex_182.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "450e6360db786663debd55e3dd2e1d272f23e68780e60e07e59a359732ac6adf"
+    },
+    "-verso-search/searchIndex_183.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "650488447305f22b8a9ec8f7f3ce5379cd5b7d9e2f2b66faaf18d6c684c51adf"
+    },
+    "-verso-search/searchIndex_184.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "a43667b36aa4c304f32ceb760740f9ccf4233fd8144d4742f8e5f5d467b39bd1"
+    },
+    "-verso-search/searchIndex_186.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "839a55259debfc5543308e0eee07f05554a521df430022f65c4773981b2ea70e"
+    },
+    "-verso-search/searchIndex_187.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "ba1b9619734c9ec9527805ee2dc3688d328c324fc3263479035e2ca1964b1914"
+    },
+    "-verso-search/searchIndex_188.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "10e799c5b5c458d8f7f180e88a8e31887337ce2438b136b32dd085090489b245"
+    },
+    "-verso-search/searchIndex_189.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "97cecf44fac126d397b37032cd8ce1ede85ea6ce1ebc1bdc58857f8d5c17d19b"
+    },
+    "-verso-search/searchIndex_19.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "936e048e17ca24b2926d3b92b71ce7c20822c7c98c070bf70b05ba3c5e213102"
+    },
+    "-verso-search/searchIndex_190.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "64d90ee77bdd34d12fdfa5e8105b9a1fe90d60c1677c020d4a12420808069bcb"
+    },
+    "-verso-search/searchIndex_191.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "b056537875b6d598b84b47dc065df30d1f4e3101333151fc3e62d7015f1908cb"
+    },
+    "-verso-search/searchIndex_193.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "c94b3dec9ed16fe011a9542e625ff2325fc8ba04f54d0f94e181241f13b39e65"
+    },
+    "-verso-search/searchIndex_195.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "4b36e7de4a553d88a1e033c0299c39a87a469006333a754255a09cab5b89761d"
+    },
+    "-verso-search/searchIndex_196.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "58f5db5a8947ce87b6fbdb90a07faee17d1d633cd8ae6b67a6f5b12f5f4e5f24"
+    },
+    "-verso-search/searchIndex_197.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "80a133eabc91900e9ffaa7755f6111b14378776215930c853b31a6966de4ec5f"
+    },
+    "-verso-search/searchIndex_198.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "ee8e51bf2f10a3032acd6507f7bbfb5e957a02851131d0a932a2b13b6feb816a"
+    },
+    "-verso-search/searchIndex_199.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "2bfd6f1da3b16629dd07524faa3f893fffb0c4f32e54baf785caef46ef79c746"
+    },
+    "-verso-search/searchIndex_2.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "d21d1e1735c936b7365086cf443c29728d09493613dc32a5116f17cfeb428847"
+    },
+    "-verso-search/searchIndex_200.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "e0e7436291060b54d083e77dd823a7b2285a660bbdb5e1ff843815fe7602c44f"
+    },
+    "-verso-search/searchIndex_201.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "22976cb49ced2bd9d5bdab56a405ad1f46b52d02c2505452fc485352b50530bb"
+    },
+    "-verso-search/searchIndex_202.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "c07f31ae8689e30a425aa54534744d6aa2bf2a5a44ffdcc7965937e71d386039"
+    },
+    "-verso-search/searchIndex_203.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "7a2e0a560e53370b57d783b74ac6e9572862d7d363d1782a20bd5c082a504921"
+    },
+    "-verso-search/searchIndex_204.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "724f3e123dc8b610b7b710e244859f3723e9f4762c0724a5fb5b709c6c8b098c"
+    },
+    "-verso-search/searchIndex_205.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "20a24b334357cc2ea754eff0e35afeceecdc081000626915b406f1c9e5341fc3"
+    },
+    "-verso-search/searchIndex_206.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "157b985e7ccf02f7ba85f6457f5e02eaddcdbc1119a95f172e4c7c89393950ed"
+    },
+    "-verso-search/searchIndex_207.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "9373bef4586c986459d1cdea3f06515dd604d5cdbf121e7a224f8d339eb8e76e"
+    },
+    "-verso-search/searchIndex_208.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "cce014d09c6ae904a19fa6169cdcda3beb83c70aa68edcb34f40fa59abee7b11"
+    },
+    "-verso-search/searchIndex_209.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "24e57dd4083fa514d3107326fd101e787f49dfe8513f7fe789a7581e810bbbcb"
+    },
+    "-verso-search/searchIndex_21.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "ceaa33b7c85710c4794cb802656c4a2a209fb3d348e32ec46526a7b6eb6f8578"
+    },
+    "-verso-search/searchIndex_210.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "02065cb4081a55e305622442c114e7b2e34002e3d82bc5bbac4cc1cf23044fe7"
+    },
+    "-verso-search/searchIndex_211.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "64dec76cd81a2a108f3f453effe6155e2e82a3dfd035b46943e96049f77d01aa"
+    },
+    "-verso-search/searchIndex_212.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "225e9e700f07b42725575ceb5fb44a960bc2d94fbcc43ab29e80c9f2205a7733"
+    },
+    "-verso-search/searchIndex_213.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "8974030d56e3b772539ddcb3f6416248f5d5a617f60883d7c8f7b8c639510759"
+    },
+    "-verso-search/searchIndex_214.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "bccf918632cf4967e2bb3103632bd6f6cbea481d0952acc98958b57b68063798"
+    },
+    "-verso-search/searchIndex_215.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "ff9893b44e22cbf56974004de10168936b298ffe6faa487776d6f0a526dbc0c7"
+    },
+    "-verso-search/searchIndex_216.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "7d90ec5af4efe13ae54a06c375fd039c2d91f0115eb5d63329390c0558eababe"
+    },
+    "-verso-search/searchIndex_217.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "625e30abed1e8a56ad015f502ce47dec4a2490ffe08df26f6c21b1c2fe666014"
+    },
+    "-verso-search/searchIndex_218.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "fd67ad5b5a50d9d0967f5053ec29403b89bff7e77ad4ef60fac0e93e24bbd00f"
+    },
+    "-verso-search/searchIndex_219.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "ac4bdde9d1e6c9c83d34c7cf57cf1d83a482a5d2c53ab6f9b9928bf9812dc534"
+    },
+    "-verso-search/searchIndex_220.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "08bf07803ddd6f58a36cb7f025a8f8891f83dfcd99fd61e8881637bdd9e1864e"
+    },
+    "-verso-search/searchIndex_221.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "b0beb9ec33453b352ae2c97472c07db6d75af2fd2e8e43c057ba86a79d630428"
+    },
+    "-verso-search/searchIndex_222.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "64f202013f1ddefdfd1aab0777acbe4ad7a9d696c751622d208934929e0ae1c4"
+    },
+    "-verso-search/searchIndex_224.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "dbf722a5bde18616b418707a81d3b0062305f1f26737c4e0b8e650ec28437daa"
+    },
+    "-verso-search/searchIndex_225.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "6194bae1193008190c6726cb973d5f93fd596b60d74fbdae166e169ff7f4c13f"
+    },
+    "-verso-search/searchIndex_226.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "c897bf0813d15eac489368dc829c8694fa5c0a3fa574eabb4dc36a90db133224"
+    },
+    "-verso-search/searchIndex_227.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "40974ae87fb696a1139279b572cb08493b4c00904456fdb4f1ed958c8f83053c"
+    },
+    "-verso-search/searchIndex_228.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "9501fae5ff1fefcc7b90f267393975ed48e459fab94a7cb6d08c1c40c97f1ff0"
+    },
+    "-verso-search/searchIndex_229.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "6437c89ef28df631b513264328e7a8b00b5f1bdc0c4463c5ec0b1a6de0e795fa"
+    },
+    "-verso-search/searchIndex_23.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "00c24bdc53a0b7b98721b3f064c0d90e82e15ad0c9f589ef946a99af8baa6edc"
+    },
+    "-verso-search/searchIndex_230.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "c5408fba8fd0e6e3f3e1c4dfcf5b62425ea6ef5d99d1bf01e5566a0439448b25"
+    },
+    "-verso-search/searchIndex_232.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "0402790fcf671e7ddcb12aa8704fb1598e55c85e2e7799577ed1298898d62d07"
+    },
+    "-verso-search/searchIndex_233.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "c4b384f22750a9e98e52f99a8e1a67101e8ff052427f7addb417f921346d5a37"
+    },
+    "-verso-search/searchIndex_234.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "e5bf656fc563d45e38b2aa812952c36cb426e6f58859a0aa2a76951387355ce0"
+    },
+    "-verso-search/searchIndex_235.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "1b28d5c011d0cde6e18aa3b4710439d0a5db00605e7eacac4516cf0b1c84d0dd"
+    },
+    "-verso-search/searchIndex_236.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "ab33ae2d9f513d0f57a114fe2be4d1ee844664be9e269d38c47ac5cdae427a8a"
+    },
+    "-verso-search/searchIndex_237.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "9d4590702a77dd2f01b20c0d08494b74363e09854a34eceac29578b15543db04"
+    },
+    "-verso-search/searchIndex_238.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "1c0f91013a12b7aea194767f9e66efbc90e65b658256db717f46215931b57cf5"
+    },
+    "-verso-search/searchIndex_239.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "e6f6daf28502fe857b3bde462792ca0d36a9cf2dfd2fa9bd55245f8e6529ed63"
+    },
+    "-verso-search/searchIndex_24.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "e2bf104ee44ab78d4651ce631cd7d22db51746141177eb672f98389d58fefa9e"
+    },
+    "-verso-search/searchIndex_240.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "abe9a58368fb7da109bef4d475885d30f229b34185d6526ec69c43280a2e4f94"
+    },
+    "-verso-search/searchIndex_241.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "328f4917068fe71d4f42647265c3879d8136d9901dfdaaa425cce3711e157e84"
+    },
+    "-verso-search/searchIndex_242.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "da7ea4ae7227df29a2664747b94a00ae0bf4fba542e030e22e74be7800d38aee"
+    },
+    "-verso-search/searchIndex_243.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "7e6978961d153e960c541e9790fab24c92da982e882bf88e2756c25d4ed07858"
+    },
+    "-verso-search/searchIndex_244.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "869c35de269fee198a3d6f4f8e7a96851da77629348db7b45266a395e4d1a091"
+    },
+    "-verso-search/searchIndex_245.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "55dd04bc277d879c3a8088c7d7dfd7995a9be65a28b8aaf908b877f769a3bd86"
+    },
+    "-verso-search/searchIndex_247.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "e3eaf9ebc8d34c3e7a5e58d2330d0b6a4e239fc263b4124308305e21a8c6d85e"
+    },
+    "-verso-search/searchIndex_249.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "2f46929875581a56e07b59fe6fd088a2634b16da6a7c2d4053eaa9ec8be2eb93"
+    },
+    "-verso-search/searchIndex_25.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "81ac05a9c4f61adb851724315ed326df5419c240b94d9b4eb972e85d72f0511a"
+    },
+    "-verso-search/searchIndex_250.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "05198f7319edfcd6bed3081cb5b0f5dd86e77f983ef8e5915317391a4bf71311"
+    },
+    "-verso-search/searchIndex_251.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "e125a970747e5087fb6de7dc2cd10e37d2425f48eff146b2fc1da25eefa43864"
+    },
+    "-verso-search/searchIndex_253.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "9aeccceb6e5e4f2682139f82b424f2e76533176cc07e89f7ee179345f681e76c"
+    },
+    "-verso-search/searchIndex_254.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "63af5a810bf7fd549e0d339e35e6cb0213cf930ec385e1ffdaa6d55924e5ec7e"
+    },
+    "-verso-search/searchIndex_255.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "e3ba6545bd35ea4df49d4abe27b06428e758033a4609c2679e66eb59e1755e79"
+    },
+    "-verso-search/searchIndex_27.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "7bcbf12c20d31df2bd5ae4f1fc7daffcdaf3bb0c2d75d9f48a323b225e72a355"
+    },
+    "-verso-search/searchIndex_28.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "7e3b01db69e7c45e78095ca55bfa9adbc66b0c80d07b9a2e541539d93d602bbf"
+    },
+    "-verso-search/searchIndex_3.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "f122bccfa9e673063e494f255bc0b4862849fdb638e9b909931d20704dfd1ac9"
+    },
+    "-verso-search/searchIndex_30.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "f2d712f9e3432cee9c4485950bd68c1b0f879c6de3e24491f4157e2b52b359da"
+    },
+    "-verso-search/searchIndex_34.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "6f5cddd880ae13d78a9dfe900eeafb5d710a150cb535d727bc47b689ca37c75b"
+    },
+    "-verso-search/searchIndex_36.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "37154182edc7489361f551fb4069edd2080c80b9d4ef0d2118b6b505177d73c3"
+    },
+    "-verso-search/searchIndex_38.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "6c8ae8647ad7ee00731416e38af6a9aab72d70473977c85434cd6c48e98d6a1a"
+    },
+    "-verso-search/searchIndex_39.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "789e21bd524390bbb33e550430cb2a3b964c93e65943e6f7baca16fb38fbbdb1"
+    },
+    "-verso-search/searchIndex_4.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "ae566bb09abe4abf8d66c19c94a2b3bbccb84c573f69490fd1d63ff3377b5294"
+    },
+    "-verso-search/searchIndex_40.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "52722c5407c7e41e470c5cfa38a8c31466bb35a7de06a52404e789a8109c423b"
+    },
+    "-verso-search/searchIndex_41.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "2714d9eca9ec07d211ef42181c97ed49ded1acde4ea42d595518fd201d3ff452"
+    },
+    "-verso-search/searchIndex_42.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "d83b7ea42d9309433a26a60049420de3094b6c34a12125be8826f530e3afa098"
+    },
+    "-verso-search/searchIndex_43.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "ccd0d93b32926f1c81d5743e9bed50f8523080849d23e49960a7b78d89c8ed38"
+    },
+    "-verso-search/searchIndex_44.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "db96d4b140f625863b5e3d89b5a3a2061b7452ff3b71df9d6445b10249dcc9ab"
+    },
+    "-verso-search/searchIndex_45.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "8c827102ff56352f221521fb72c16b72855e2d2cb0d4406500f3d2c3cb0813e9"
+    },
+    "-verso-search/searchIndex_46.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "f06a2702fad4718d2864f8d8e83d7a6a088e9f0550594ec51d0ef6965ce75fc4"
+    },
+    "-verso-search/searchIndex_47.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "536bc8e7d3c2ce2d662a1a0e306cc1be4fd88e6ea639e7aa0f090fa7fdf86cac"
+    },
+    "-verso-search/searchIndex_48.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "d8372bc1016a3fc4cad3fef106335897133524a778848a2105b1fcc3633599df"
+    },
+    "-verso-search/searchIndex_49.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "a71bebcacb9b88198dbdfb37f920cdd0549120c5db06282c5585df7c5bb4474f"
+    },
+    "-verso-search/searchIndex_5.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "42c55a2b028a8a3f0c77842879eaf3793f971c5d9b5ea2f27718a4fee3fdf944"
+    },
+    "-verso-search/searchIndex_51.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "af19a9de131298f1c10b5cc706392dcbb948dc512bd41beb5ae2dda326e0a650"
+    },
+    "-verso-search/searchIndex_52.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "228ee589911ac603778f91e7e374177c6f615d9e41e2e6af1204465f2cdc85aa"
+    },
+    "-verso-search/searchIndex_53.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "f8c37ccb9af60b641da580c08b8fc3b77e89b94401a4c00310a57f2b53834002"
+    },
+    "-verso-search/searchIndex_54.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "02a2ba5ce5688c19b041b8029e9fa87a6a928bcef0d51a95abdc7d5b73f6dee6"
+    },
+    "-verso-search/searchIndex_56.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "8be222aedea7b6b13fd44a906696b4b8cf19016b65af61720d2449f90954b04e"
+    },
+    "-verso-search/searchIndex_57.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "eaebfe1cc3fbf72567f3fabe15e4adc0cd18f38c36bb30d486d65b8c5e1291f7"
+    },
+    "-verso-search/searchIndex_58.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "046346d4a84942820e6cf8fb52776a01160e585116f5fbde14b9e349fafea99c"
+    },
+    "-verso-search/searchIndex_59.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "1ec77c6829e4e602e6c4588b2d73ce1bd444847afae33c1fbc7991fbc4010ced"
+    },
+    "-verso-search/searchIndex_6.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "13d87d14c06358c87992ab66fc0075ab7228b6450ca8cf8ed9aa0465d3ad0128"
+    },
+    "-verso-search/searchIndex_60.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "8b98625dd4ed0f8f17f337d7056a5e9a58f1a46b525fb0f420e15a2eb8cb9d85"
+    },
+    "-verso-search/searchIndex_61.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "0499098672e817c2ab75b7f60303f6c8ecb6dfcdad1e53c522334f105da758db"
+    },
+    "-verso-search/searchIndex_62.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "e01097ce4e97336c2d10606e72483ca6ca4256ed86dad00206eec0ec33fe2cb4"
+    },
+    "-verso-search/searchIndex_63.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "c16d701e47738041b8b6dd1ebf24bcb5857a640c1bcc7b1d46dc1f3e9581ace5"
+    },
+    "-verso-search/searchIndex_65.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "1b626f2db891d9bac284243dc442272c625e5c27721a2e157e612762ccedd684"
+    },
+    "-verso-search/searchIndex_66.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "33c4773a5f0f4f678e2be56971d7517a807c57ec519ab0fa5bd2b0af062b62dd"
+    },
+    "-verso-search/searchIndex_67.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "bb4ab3cac9be4772ec78432dfc66129d07516ad7bb6256a269b783e7775f5d62"
+    },
+    "-verso-search/searchIndex_68.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "1933c916555e7a0b59bd305d58ce75777eb2997cedf96936230648718b0ba63c"
+    },
+    "-verso-search/searchIndex_69.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "6ce4b3e1efcf58cba7405e85683b7e0184f7d30ba17966d4da91efc3544aaeb3"
+    },
+    "-verso-search/searchIndex_7.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "81ae273bfee41daaa59ab08a4a8e4969e36cf7a1b54dc7f94d316e07c4fd5451"
+    },
+    "-verso-search/searchIndex_70.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "d33f3f9ec6a96a121aa00fe092144121156221de44479d94e6ef2790d9812a0f"
+    },
+    "-verso-search/searchIndex_71.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "b09db57aaf6a7ebb1bdccc4b77e68c16cf1fc69d6393cec93d28d3de2eb60415"
+    },
+    "-verso-search/searchIndex_73.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "f9d84ae83c989dda79a254c535ca8a92a7195a1fa1f610f7291581a8b082b5e2"
+    },
+    "-verso-search/searchIndex_74.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "5a75cb7bdc98e582433e421d9bf5d08a8dbeef563496ec18453a372cfe797685"
+    },
+    "-verso-search/searchIndex_75.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "bfc6a51995deb1fc417bbb0e47286919ad426c03bb7ecf29ae0f1378692aaf30"
+    },
+    "-verso-search/searchIndex_76.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "d1d8f19465a90f4d546118025152705b6bc9c7cff1fc9d857d476721b1f96b21"
+    },
+    "-verso-search/searchIndex_77.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "10fc792112c20f99c66ea00ea387aaa63d2993a06b48c434c0743256227c53b6"
+    },
+    "-verso-search/searchIndex_78.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "fa41070c6e9a37b1e3fed86ebf3b33e5ef66376f27d31846ae7c593258f33802"
+    },
+    "-verso-search/searchIndex_8.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "0ca99dcdf743759b87405ecb0aba1a57368dc0ff0dc8a92c4fbdad81f46f9b8f"
+    },
+    "-verso-search/searchIndex_80.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "77029d42efc02072744db5597af5f51b83fb484abe85451ee4cfe08c6c06a504"
+    },
+    "-verso-search/searchIndex_81.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "95b061e1b49434a3ce47f299f89e0c81f8f58f8b301f3ce9e40b3f62f016d6db"
+    },
+    "-verso-search/searchIndex_82.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "a4c253abca9453881c78900a701a69b1ea035085ad9a8bd0ad8101cd5dac62b3"
+    },
+    "-verso-search/searchIndex_83.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "620bb0b2170f1d2da8d045c334d17006d9987a5635487d381227eed43c6ef318"
+    },
+    "-verso-search/searchIndex_85.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "baf193a9eccb3be55bdbad498ed2258a27e65f33fa0cb2f799660be41650a576"
+    },
+    "-verso-search/searchIndex_86.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "31e43ee65a7dee284bf98da6f06ea0a0c6e07b6e721275b7f0ac8820d2c52141"
+    },
+    "-verso-search/searchIndex_90.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "9077d558bd792c3fdb387c4275e8b86a04897de31f033f705dff0acacf148149"
+    },
+    "-verso-search/searchIndex_91.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "b66ea85c046e363c4bcfe5f09964aa5ae65b7534682a42eed3538d42d3c49c7f"
+    },
+    "-verso-search/searchIndex_92.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "7d4d3c60a9ed12e6c9b23a734c8c29ddf745b645f28de058031ba76cf82636e2"
+    },
+    "-verso-search/searchIndex_93.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "61767cec0712beb649e29f182f9126ef9d3afe0f012a012156f1d891fd4a38c8"
+    },
+    "-verso-search/searchIndex_95.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "4f2c2af323480819de737180d7a1cc3be9659945f9e77e18d7701f1e26cd0eec"
+    },
+    "-verso-search/searchIndex_96.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "9abeec4bdb8c2c2886c38e7d90d34ff71eb54aa3368e660906c4eee780faffed"
+    },
+    "-verso-search/searchIndex_97.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "6f98e7fb664e4b8ef6c87f2a33533b855c33ea80042d0c8423467ac6b936afbe"
+    },
+    "-verso-search/searchIndex_98.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "76c44360d507e8fd99819b9356aab9c16b39841d7baaefdb0b6971cbcc037eab"
+    },
+    "-verso-search/searchIndex_99.b0079d07905f7f8f.js": {
+      "kind": "file",
+      "sha256": "e318f3a6ac75adcfe0c8775303aebb5cd93cf6d73f69d38f57bb7301d5338498"
+    },
+    "-verso-search/unicode-input-component.min.js": {
+      "kind": "file",
+      "sha256": "0cf9c3edf26f05ccbb149a6ab62333a457633e572fd38b08992dfea24ba097be"
+    },
+    "-verso-search/unicode-input.min.js": {
+      "kind": "file",
+      "sha256": "8dbd631b1c13ee172752e22a261cab83b0669caee718bb4a8fc2118e8aa1eaa0"
+    },
+    "Acknowledgments/index.html": {
+      "kind": "file",
+      "sha256": "af696611c94e4c65b92d78aec6594ff2051defe7222d1308c4e77494b8ddd0a1"
+    },
+    "Functors___-Applicative-Functors___-and-Monads/Alternatives/index.html": {
+      "kind": "file",
+      "sha256": "e0a50a0d772120e3e960eb500841e69bc0d518c5e439816394c2907b0f732ea2"
+    },
+    "Functors___-Applicative-Functors___-and-Monads/Applicative-Functors/index.html": {
+      "kind": "file",
+      "sha256": "63614fa62cbf74af5447c4b9cf79d47b43d6878c2ebdab92673d526eb3aa6a99"
+    },
+    "Functors___-Applicative-Functors___-and-Monads/Structures-and-Inheritance/index.html": {
+      "kind": "file",
+      "sha256": "ea5437af41ff39c3abc4a89ebd191085057d7bd882c0bb942d4eebabafee9062"
+    },
+    "Functors___-Applicative-Functors___-and-Monads/Summary/index.html": {
+      "kind": "file",
+      "sha256": "14d6c58a30be89a9d45a438c42a5013e3ea007218b890664fa266a8ca61166aa"
+    },
+    "Functors___-Applicative-Functors___-and-Monads/The-Applicative-Contract/index.html": {
+      "kind": "file",
+      "sha256": "fde0a8166caea858f09360fb951185a0cb0dfa4b64a6ad41867e44c8dffaf219"
+    },
+    "Functors___-Applicative-Functors___-and-Monads/The-Complete-Definitions/index.html": {
+      "kind": "file",
+      "sha256": "6b65d3eb1bf0576f5fad20e42923b2698d6b8b142abd299a87208929d676ae87"
+    },
+    "Functors___-Applicative-Functors___-and-Monads/Universes/index.html": {
+      "kind": "file",
+      "sha256": "3db4faac94ab7c0a4f0e430aee35336a566aa7e1e2670e7f980182ccc505c212"
+    },
+    "Functors___-Applicative-Functors___-and-Monads/index.html": {
+      "kind": "file",
+      "sha256": "0beb647f8f1a8f7c30f34f89928b30a6559deb95203240178aa02971df80888d"
+    },
+    "Getting-to-Know-Lean/Additional-Conveniences/index.html": {
+      "kind": "file",
+      "sha256": "dac98ce49c650e67bca032471a5f76aa9281c41c579f01ccdf5080c04fcf3690"
+    },
+    "Getting-to-Know-Lean/Characters___-Strings___-and-Slices/index.html": {
+      "kind": "file",
+      "sha256": "584622eb5c7a2edf2bfc57c55459d324a52b60e9de367c6ccfbd82db4bdf380b"
+    },
+    "Getting-to-Know-Lean/Datatypes-and-Patterns/index.html": {
+      "kind": "file",
+      "sha256": "f18cff0d9d16bbb5a9270cef9ac7d1d727a7d12a813b364727c5f689fa7497b5"
+    },
+    "Getting-to-Know-Lean/Evaluating-Expressions/index.html": {
+      "kind": "file",
+      "sha256": "16a26022fc7bcdef85bc99ff7c8d4d8820abdfb74330ee3850a0e112de772cd3"
+    },
+    "Getting-to-Know-Lean/Functions-and-Definitions/index.html": {
+      "kind": "file",
+      "sha256": "0bae51cebcd15421f489f87dfa878df1f6a24941224c18650d741e44a07e3d46"
+    },
+    "Getting-to-Know-Lean/Polymorphism/index.html": {
+      "kind": "file",
+      "sha256": "372163bc09a5d996acb62cfe75938e2c9e3dd83a3955ae6e6257a631f8c60778"
+    },
+    "Getting-to-Know-Lean/Structures/index.html": {
+      "kind": "file",
+      "sha256": "2b6f8b4f384b9f76d1ca52c175f0a14991ffef47c04b3edb5be65ae556ea92e7"
+    },
+    "Getting-to-Know-Lean/Summary/index.html": {
+      "kind": "file",
+      "sha256": "4887f3a0885ae07a31c3793546cdd90ed2a1df8d0696bd7df4ced764c8a6f42e"
+    },
+    "Getting-to-Know-Lean/Types/index.html": {
+      "kind": "file",
+      "sha256": "2db7804a650dd7585219fb15b556c364de9e5f8f545182bad4d6c9b2d12bc0b0"
+    },
+    "Getting-to-Know-Lean/index.html": {
+      "kind": "file",
+      "sha256": "31f1bf4d2b2fb8f8fd6490c73ca28a3a75b894eddc68ef6a61f34ae2d72c356e"
+    },
+    "Hello___-World___/Additional-Conveniences/index.html": {
+      "kind": "file",
+      "sha256": "121cc18acf1454ecd3b8a39519e01edbf21a70fd7344494d7c865ba32c5666db"
+    },
+    "Hello___-World___/Running-a-Program/index.html": {
+      "kind": "file",
+      "sha256": "34e26e35216214176efd2f359459b6fa49b7f639f3f173f92cdc549f65c08d90"
+    },
+    "Hello___-World___/Starting-a-Project/index.html": {
+      "kind": "file",
+      "sha256": "89e18ff2f24eac868b3c815a8b6395a58a65189083be5113e91f7352a7a4d024"
+    },
+    "Hello___-World___/Step-By-Step/index.html": {
+      "kind": "file",
+      "sha256": "04800f8cc283df4e8254067e0023a0db029c130fd48fb6c5a260e5812375940a"
+    },
+    "Hello___-World___/Summary/index.html": {
+      "kind": "file",
+      "sha256": "360576e2f42a40dee0d37fd4db2ae1d9b7aa3960fdaa885547052b78162a5550"
+    },
+    "Hello___-World___/Worked-Example___--cat/index.html": {
+      "kind": "file",
+      "sha256": "699b6090ca00d5899e1a8c8debc60cc18989179d9c98d5ba664c6e95680f2453"
+    },
+    "Hello___-World___/index.html": {
+      "kind": "file",
+      "sha256": "1337acb16df9a6ccbd735d64098b78484bd779398f4898adab0b2d80c7b6b3cf"
+    },
+    "Interlude___-Propositions___-Proofs___-and-Indexing/index.html": {
+      "kind": "file",
+      "sha256": "0ddae4823ec6fe47876c137d5c70add0d83ebe9b8b2bf042d59a31a1f344a37e"
+    },
+    "Interlude___-Tactics___-Induction___-and-Proofs/index.html": {
+      "kind": "file",
+      "sha256": "419f16fb782f181edf7ece288916ece97d5d0d7ffee6000a69a16e97457295c6"
+    },
+    "Introduction/index.html": {
+      "kind": "file",
+      "sha256": "4a80a0bd767793b1246039b817974a37cfd9fb31e5b221c7ea984b092c9b4158"
+    },
+    "Monad-Transformers/A-Monad-Construction-Kit/index.html": {
+      "kind": "file",
+      "sha256": "3c8b68da6f4b540ed73e48a580c5e0c90ff8f5f1e39348b08f77fc694f7e4663"
+    },
+    "Monad-Transformers/Additional-Conveniences/index.html": {
+      "kind": "file",
+      "sha256": "213d8f3a601647ab0ad56b106c3335e82b2173f3facda39bcddbc0a8afb73049"
+    },
+    "Monad-Transformers/Combining-IO-and-Reader/index.html": {
+      "kind": "file",
+      "sha256": "38df655d56fe17b7a4f464205c2dffee401b0851e21fde8563dac5f90077e2bf"
+    },
+    "Monad-Transformers/More-do-Features/index.html": {
+      "kind": "file",
+      "sha256": "bde57f3fe459e818ef8414202903c0044b478e00cde2569836c10c337ea26251"
+    },
+    "Monad-Transformers/Ordering-Monad-Transformers/index.html": {
+      "kind": "file",
+      "sha256": "d38e0be8edd9e39a5803530276b7ac55c6d64d420fef47c78ed40454e5bcc0b3"
+    },
+    "Monad-Transformers/Summary/index.html": {
+      "kind": "file",
+      "sha256": "1831c5bd849a5bb126807b9acb7403c2d31fc7a74a9bdfbf840fa6a789860b35"
+    },
+    "Monad-Transformers/index.html": {
+      "kind": "file",
+      "sha256": "86d286fb9570bf098aa0bcc3d19863c91c1c144926a85ecaec6221f2dfc2a337"
+    },
+    "Monads/Additional-Conveniences/index.html": {
+      "kind": "file",
+      "sha256": "11658294e3e6696d441ae98e001bde4b7c7c328479e6f990ea802423b2ab5f58"
+    },
+    "Monads/Example___-Arithmetic-in-Monads/index.html": {
+      "kind": "file",
+      "sha256": "4c7ad096032d5905fd2a7988df3333ca9cb389138a4e84de0b57d94ced88fb49"
+    },
+    "Monads/One-API___-Many-Applications/index.html": {
+      "kind": "file",
+      "sha256": "0887b873f822c610f8b73e9e07d0e98d601c53d8b52ec6ea0abf20ddffc6e8cb"
+    },
+    "Monads/Summary/index.html": {
+      "kind": "file",
+      "sha256": "f6f9dbf5ffe2f6d2dbe75189aaa34a3ad25d476e9018c06e312fa20bdfbfba3e"
+    },
+    "Monads/The-IO-Monad/index.html": {
+      "kind": "file",
+      "sha256": "2cf557f5b70f8eca054eb33c6664153d744adc751921d072d44c16629019500e"
+    },
+    "Monads/The-Monad-Type-Class/index.html": {
+      "kind": "file",
+      "sha256": "fb66e9ba2cb6e999f45c4528f7aadee377736d90ad0fbbcff67273efa8ce5185"
+    },
+    "Monads/do--Notation-for-Monads/index.html": {
+      "kind": "file",
+      "sha256": "16ace7c0231f406cb31c4f8c7d1fc024006aaef36522a63123628bb3ac2d9258"
+    },
+    "Monads/index.html": {
+      "kind": "file",
+      "sha256": "34455961736a8aed02cc05d48cc19bf3414d287c72906d0541418b716da47eb0"
+    },
+    "Next-Steps/index.html": {
+      "kind": "file",
+      "sha256": "d5ba0ba6ae98de5fe6cba4ccff3a908cda7cdf2d69206a87d92179ddb5a796fd"
+    },
+    "Overloading-and-Type-Classes/Additional-Conveniences/index.html": {
+      "kind": "file",
+      "sha256": "8b61d967440da09a65d5558a3a1d7c862e778360b577ef26cad7d04f4d747397"
+    },
+    "Overloading-and-Type-Classes/Arrays-and-Indexing/index.html": {
+      "kind": "file",
+      "sha256": "2a4ec8222d032d081082599af33c9cfde1b9e7410caa754bb7d628ed98188b97"
+    },
+    "Overloading-and-Type-Classes/Coercions/index.html": {
+      "kind": "file",
+      "sha256": "f8b43f931d40ecf8baa7bbdfe51f82c02fa9302a7b9fa40c3d874ea6b8acf044"
+    },
+    "Overloading-and-Type-Classes/Controlling-Instance-Search/index.html": {
+      "kind": "file",
+      "sha256": "42c3bc0053b487d7b6ee986a9d2bda6cf9757941f6abea01596f9457203a2127"
+    },
+    "Overloading-and-Type-Classes/Positive-Numbers/index.html": {
+      "kind": "file",
+      "sha256": "83bf1098fad56668c978fdf3e6b5f6bd9c1df9450a444209bb7077bed19285f8"
+    },
+    "Overloading-and-Type-Classes/Standard-Classes/index.html": {
+      "kind": "file",
+      "sha256": "bdd2295b3c0e42fa9ae327087802fab175c1aa9186d21cdd466ea7c3bdcdf406"
+    },
+    "Overloading-and-Type-Classes/Summary/index.html": {
+      "kind": "file",
+      "sha256": "c513ef50e7be7226bc651c10d27658d8e4b8712c907f047fab716e6bdb54a7e2"
+    },
+    "Overloading-and-Type-Classes/Type-Classes-and-Polymorphism/index.html": {
+      "kind": "file",
+      "sha256": "938f937424369076dc22cf39a13d1e1da0be596019f42f557e1fb07a3f0d9e5d"
+    },
+    "Overloading-and-Type-Classes/index.html": {
+      "kind": "file",
+      "sha256": "252b427714d34b31619d6de11b54ac2cb533f3973c72d9be7af2bee6f024cf8d"
+    },
+    "Programming-with-Dependent-Types/Indexed-Families/index.html": {
+      "kind": "file",
+      "sha256": "10bf8b34f07c0c155fe0398b60e9e20818f3415e659070d18e2227201e06896b"
+    },
+    "Programming-with-Dependent-Types/Indices___-Parameters___-and-Universe-Levels/index.html": {
+      "kind": "file",
+      "sha256": "872d427dd7b5c72997b8f9e9ab581fbe9887692abf7288f4e6f8f42e22579030"
+    },
+    "Programming-with-Dependent-Types/Pitfalls-of-Programming-with-Dependent-Types/index.html": {
+      "kind": "file",
+      "sha256": "201401b0d8637f09e9eff61d4257001acc48ad279c5c4674b89dae18332c2f55"
+    },
+    "Programming-with-Dependent-Types/Summary/index.html": {
+      "kind": "file",
+      "sha256": "9c73f174150d405b8fa97b3599d5b9cae75c68c87a0203ec44eac0aa9c54a468"
+    },
+    "Programming-with-Dependent-Types/The-Universe-Design-Pattern/index.html": {
+      "kind": "file",
+      "sha256": "c38234c01fd6b7edc006a34fbec1f32727a04dbd4898b7ed7f8b3edf5e581096"
+    },
+    "Programming-with-Dependent-Types/Worked-Example___-Typed-Queries/index.html": {
+      "kind": "file",
+      "sha256": "007e725240125fdc28022a083fb6dff431298040e22df763958d90ef8f90026d"
+    },
+    "Programming-with-Dependent-Types/index.html": {
+      "kind": "file",
+      "sha256": "8cb29de2412501aeef9f1bc9cc3e2382c144e3ce3f4fae8ea1ea89f8dc9baf97"
+    },
+    "Programming___-Proving___-and-Performance/Arrays-and-Termination/index.html": {
+      "kind": "file",
+      "sha256": "e257d4737ecec029ede6ddb47a4fc311c6885519530153043f4866b0e4e8a6d1"
+    },
+    "Programming___-Proving___-and-Performance/Bounded-Numbers/index.html": {
+      "kind": "file",
+      "sha256": "59ca9ee1b4d5e871b9ea52d0fe015520324e0fcd7aac7fa3b33feb062d2fa734"
+    },
+    "Programming___-Proving___-and-Performance/Insertion-Sort-and-Array-Mutation/index.html": {
+      "kind": "file",
+      "sha256": "6fbeac1f29526806f4575009613fffe0b0bd139f66c315b61b43291142480f74"
+    },
+    "Programming___-Proving___-and-Performance/More-Inequalities/index.html": {
+      "kind": "file",
+      "sha256": "2aef331a12dbdb4b1c293de670eaa006567d4332cd7c7cbfe8d81d0cd517e5e2"
+    },
+    "Programming___-Proving___-and-Performance/Proving-Equivalence/index.html": {
+      "kind": "file",
+      "sha256": "791bac54d09179201d285972317686f115ef4c90e2c09e79335b6ea99e7d0925"
+    },
+    "Programming___-Proving___-and-Performance/Special-Types/index.html": {
+      "kind": "file",
+      "sha256": "fa869a7284684198ec5f9344ac493704eb8b79865c3eb2e82979e765218aedab"
+    },
+    "Programming___-Proving___-and-Performance/Summary/index.html": {
+      "kind": "file",
+      "sha256": "c01074c2a9b711c5b81ecd1eef5d583e66f812f672cc8a581ef71918e9cd2a42"
+    },
+    "Programming___-Proving___-and-Performance/Tail-Recursion/index.html": {
+      "kind": "file",
+      "sha256": "129daa76ce1b4c666dac215256b9207c2331a487f89529e18a5687c5be276c3e"
+    },
+    "Programming___-Proving___-and-Performance/index.html": {
+      "kind": "file",
+      "sha256": "22b647b3599762af98678672227637f5e11063c1304a0cad51f5a3f77ad34735"
+    },
+    "book.css": {
+      "kind": "file",
+      "sha256": "942cf9fed8a07cb018f82d37fe90f83090c4bf7d89bb04f593ba3ccade36a391"
+    },
+    "find/index.html": {
+      "kind": "file",
+      "sha256": "4375c5217fed3ac37fd5491f93ed95b81b400beb806e4361749681500e4632dc"
+    },
+    "index.html": {
+      "kind": "file",
+      "sha256": "8b6dcffb1f04c653525b63e3fd3769a3501cef7e7c0ebaa4f385e41e633524fd"
+    },
+    "search/index.html": {
+      "kind": "file",
+      "sha256": "2c64a838629596c59e4eb20eb519dd7acc36caf0bb5b66e734bc0f037e84aef8"
+    },
+    "static/fonts/noto-sans-mono/NotoSansMono-VariableFont_wdth,wght.ttf": {
+      "kind": "file",
+      "sha256": "47d856141683450ee297592b27be447eb5141c68516e5e0e748c66b6e0a54afe"
+    },
+    "static/fonts/noto-sans-mono/OFL.txt": {
+      "kind": "file",
+      "sha256": "be2f3f8727ac2e18b714ad1c4336d4ddb3f3adbeb9a7f70bfab74d21f4d2b3fb"
+    },
+    "static/fonts/noto-sans-mono/noto-sans-mono.css": {
+      "kind": "file",
+      "sha256": "67bf63e0b79530a68090c609a063f0dac41deedce0ab32c6d61040b482a50025"
+    },
+    "static/fonts/source-code-pro/LICENSE.md": {
+      "kind": "file",
+      "sha256": "7c940e28a5388e9bba866cf0e408edda45fe0899ba98665b8f6ab31dc5e4b8ff"
+    },
+    "static/fonts/source-code-pro/OTF/SourceCodePro-Black.otf": {
+      "kind": "file",
+      "sha256": "1372d6cb5e4073b6be0d0bfa79e7e0ccf882d77e8a714c17492c4410f6379ac2"
+    },
+    "static/fonts/source-code-pro/OTF/SourceCodePro-BlackIt.otf": {
+      "kind": "file",
+      "sha256": "7cf24ffce3a9373d16fa95526e8091a45774a321dbf5dbe76aee9f45138c00c9"
+    },
+    "static/fonts/source-code-pro/OTF/SourceCodePro-Bold.otf": {
+      "kind": "file",
+      "sha256": "6f5a4a46a99ad1b92a8675e98f148272c8d2476fc0eb067247dd5eea6a3ad84c"
+    },
+    "static/fonts/source-code-pro/OTF/SourceCodePro-BoldIt.otf": {
+      "kind": "file",
+      "sha256": "a015a5762527946aa99778f5397da14d10b963938d1d6e08153f173fdf29d8ee"
+    },
+    "static/fonts/source-code-pro/OTF/SourceCodePro-ExtraLight.otf": {
+      "kind": "file",
+      "sha256": "ecec59fac495dc12514b1afab85fcf15d2f622a8fa48a247c913b01653424e11"
+    },
+    "static/fonts/source-code-pro/OTF/SourceCodePro-ExtraLightIt.otf": {
+      "kind": "file",
+      "sha256": "c58e92053e6ff16a2d3f76721bd6fe55e76f546b156548da86e3d390345da382"
+    },
+    "static/fonts/source-code-pro/OTF/SourceCodePro-It.otf": {
+      "kind": "file",
+      "sha256": "6989245c8747ecef5d927f412b49e2cef495053434b635f560f20cc81a1433d1"
+    },
+    "static/fonts/source-code-pro/OTF/SourceCodePro-Light.otf": {
+      "kind": "file",
+      "sha256": "02303c413a412e0982833e4d9626415338de94f4e1778548b4051d4b5bce1b28"
+    },
+    "static/fonts/source-code-pro/OTF/SourceCodePro-LightIt.otf": {
+      "kind": "file",
+      "sha256": "f3ed5fb28aa873a6ffa75f4c3d2e0e1fbfecbbca6dae3a4ce27683a1f6e6180d"
+    },
+    "static/fonts/source-code-pro/OTF/SourceCodePro-Medium.otf": {
+      "kind": "file",
+      "sha256": "d6d11eb2088ce200b59f0fb620dba4f54c153b99fd2985c9708b0aa7037a1945"
+    },
+    "static/fonts/source-code-pro/OTF/SourceCodePro-MediumIt.otf": {
+      "kind": "file",
+      "sha256": "443e47e4e4de0e932414825a84658064fd7c1ad711610c54681345b0e8df36c0"
+    },
+    "static/fonts/source-code-pro/OTF/SourceCodePro-Regular.otf": {
+      "kind": "file",
+      "sha256": "9f9664e2edf6f045c11e774f9bd0be6993971f2544a39061a5ce478b96b051f8"
+    },
+    "static/fonts/source-code-pro/OTF/SourceCodePro-Semibold.otf": {
+      "kind": "file",
+      "sha256": "1be15ad5855dab0017af32153342989b91fec313efcdbeda69bdeec92794da0d"
+    },
+    "static/fonts/source-code-pro/OTF/SourceCodePro-SemiboldIt.otf": {
+      "kind": "file",
+      "sha256": "9489d3440e4b80ac528380831f12107c73f6034b962ad7f6c382e239f508caa6"
+    },
+    "static/fonts/source-code-pro/TTF/SourceCodePro-Black.ttf": {
+      "kind": "file",
+      "sha256": "37a4fd8a65b8d27580676cf956e8af3a2a6204dbc76dec4318ad0fed660bc89d"
+    },
+    "static/fonts/source-code-pro/TTF/SourceCodePro-BlackIt.ttf": {
+      "kind": "file",
+      "sha256": "8b60e510e39f085e202447106cfd994394b5b76c55541ca6554c42e44b58918d"
+    },
+    "static/fonts/source-code-pro/TTF/SourceCodePro-Bold.ttf": {
+      "kind": "file",
+      "sha256": "b2095e0d657e6d28dc32444a9dacabab0c9241d0bf39d96371756cc9bdbc3a5f"
+    },
+    "static/fonts/source-code-pro/TTF/SourceCodePro-BoldIt.ttf": {
+      "kind": "file",
+      "sha256": "1b49d9304012bf8db9e5dd4104183d5c122c445d0570a2259125f71977595b90"
+    },
+    "static/fonts/source-code-pro/TTF/SourceCodePro-ExtraLight.ttf": {
+      "kind": "file",
+      "sha256": "8f4deb0901f375797fe51c2351abf2059e4ebbab2ec0ac390d040c3e802ddec6"
+    },
+    "static/fonts/source-code-pro/TTF/SourceCodePro-ExtraLightIt.ttf": {
+      "kind": "file",
+      "sha256": "201b24b465e7882ff93365ce731c6129cbda11fed265d1114510efee30dedaab"
+    },
+    "static/fonts/source-code-pro/TTF/SourceCodePro-It.ttf": {
+      "kind": "file",
+      "sha256": "9c9e0f4d016210a3c5bdfba5262637c5b26ddff4ccc382ebbc781de5961d0042"
+    },
+    "static/fonts/source-code-pro/TTF/SourceCodePro-Light.ttf": {
+      "kind": "file",
+      "sha256": "e9bb1870b0765b2cf06f797039d3dba4a78bb90360b20840bfc6a0c024d8f756"
+    },
+    "static/fonts/source-code-pro/TTF/SourceCodePro-LightIt.ttf": {
+      "kind": "file",
+      "sha256": "784e689ed03d1738f65dd4537c41ba25ac336f9f34a86bf298e24a44260c20aa"
+    },
+    "static/fonts/source-code-pro/TTF/SourceCodePro-Medium.ttf": {
+      "kind": "file",
+      "sha256": "f9dbc746f60c83f5cb1503b19f90729d8195cab6bb67f2b861d4eb257ed86536"
+    },
+    "static/fonts/source-code-pro/TTF/SourceCodePro-MediumIt.ttf": {
+      "kind": "file",
+      "sha256": "d34387901d96871f3521cbe69fe95e65396bed83eeb579de9abac510a683253d"
+    },
+    "static/fonts/source-code-pro/TTF/SourceCodePro-Regular.ttf": {
+      "kind": "file",
+      "sha256": "74bd80d3e42a08517cd7e1108ba3d86f2da29ac0f3065be95e0357956ab9db37"
+    },
+    "static/fonts/source-code-pro/TTF/SourceCodePro-Semibold.ttf": {
+      "kind": "file",
+      "sha256": "014a0fdf42504ee1faf719a96eab5f9ffdade793f1d5c5729ad4606f2aedc765"
+    },
+    "static/fonts/source-code-pro/TTF/SourceCodePro-SemiboldIt.ttf": {
+      "kind": "file",
+      "sha256": "600253b4aae951db5b90882a866718d99dfb0e40ef3db5b5d2d8433a412ebc85"
+    },
+    "static/fonts/source-code-pro/WOFF/OTF/SourceCodePro-Black.otf.woff": {
+      "kind": "file",
+      "sha256": "5c070bace669b93f53b8376b98a7f285cb6a6fb9b256d6134878a29144c734b4"
+    },
+    "static/fonts/source-code-pro/WOFF/OTF/SourceCodePro-BlackIt.otf.woff": {
+      "kind": "file",
+      "sha256": "9cdcdc7a114e5bf9ba2e9aac31af99518a54fa7b99620245467e3c786110a1fe"
+    },
+    "static/fonts/source-code-pro/WOFF/OTF/SourceCodePro-Bold.otf.woff": {
+      "kind": "file",
+      "sha256": "7cb40b8f9e2b2c03a64f01be6b589d8ffa3a2791aeea228e8e620b5a699b5696"
+    },
+    "static/fonts/source-code-pro/WOFF/OTF/SourceCodePro-BoldIt.otf.woff": {
+      "kind": "file",
+      "sha256": "b3952602d9d4a18d8ac8d949d04d2e54e33795bffc14c7c73c7e51b6da1f2f88"
+    },
+    "static/fonts/source-code-pro/WOFF/OTF/SourceCodePro-ExtraLight.otf.woff": {
+      "kind": "file",
+      "sha256": "fdb3668583de700682e4f87b806db49c6c382620cc7a53bf9c2930227b3e9f91"
+    },
+    "static/fonts/source-code-pro/WOFF/OTF/SourceCodePro-ExtraLightIt.otf.woff": {
+      "kind": "file",
+      "sha256": "10a92084d36e35c8d9ddd4ef8dbe04c7911dba8b60a39f0b998436257be47b0a"
+    },
+    "static/fonts/source-code-pro/WOFF/OTF/SourceCodePro-It.otf.woff": {
+      "kind": "file",
+      "sha256": "856f9a006cd5402e643da5158bd21960a5c1be1adfff8c941823efa1daeea91f"
+    },
+    "static/fonts/source-code-pro/WOFF/OTF/SourceCodePro-Light.otf.woff": {
+      "kind": "file",
+      "sha256": "79b44d9f3d0b08a522d0d24898e490531098a55c44b963a5083311f56d278a5a"
+    },
+    "static/fonts/source-code-pro/WOFF/OTF/SourceCodePro-LightIt.otf.woff": {
+      "kind": "file",
+      "sha256": "25faea556dc945730b4dd650c8dd82f6dad92334544238504d003e134f8f9ae5"
+    },
+    "static/fonts/source-code-pro/WOFF/OTF/SourceCodePro-Medium.otf.woff": {
+      "kind": "file",
+      "sha256": "1ca4bcf597f4cecec709cbcaa4b4c3408b4867029921b7f94bbf268f24a64c21"
+    },
+    "static/fonts/source-code-pro/WOFF/OTF/SourceCodePro-MediumIt.otf.woff": {
+      "kind": "file",
+      "sha256": "91731c7b767d0efa0e87eae48fbcf8df8c1595f8708f49628750a4721343997c"
+    },
+    "static/fonts/source-code-pro/WOFF/OTF/SourceCodePro-Regular.otf.woff": {
+      "kind": "file",
+      "sha256": "53df9d4067d2839dbb86943efb5fe6ec799af4db92f38ccbfc69f52ca991de01"
+    },
+    "static/fonts/source-code-pro/WOFF/OTF/SourceCodePro-Semibold.otf.woff": {
+      "kind": "file",
+      "sha256": "1d46ec645ca5b2d570620839ea6a6fc6c6de5db65dd2dc54615a6b36679ba5c9"
+    },
+    "static/fonts/source-code-pro/WOFF/OTF/SourceCodePro-SemiboldIt.otf.woff": {
+      "kind": "file",
+      "sha256": "6feea3b2ba0ae4c7e5786ea69560ca304d7f3b3d060e336b0beecd962220016b"
+    },
+    "static/fonts/source-code-pro/WOFF/TTF/SourceCodePro-Black.ttf.woff": {
+      "kind": "file",
+      "sha256": "e21644418f99e54f1766eb4952d4bdc3982699f39d19a9a211f0fd6edf44dbed"
+    },
+    "static/fonts/source-code-pro/WOFF/TTF/SourceCodePro-BlackIt.ttf.woff": {
+      "kind": "file",
+      "sha256": "ca84c3cd2fb12c670d63e4f9f0cfb84a5025c81cacd8009938222c17ca34885e"
+    },
+    "static/fonts/source-code-pro/WOFF/TTF/SourceCodePro-Bold.ttf.woff": {
+      "kind": "file",
+      "sha256": "3de30e6b6dac74eb17d9ae2a1aae5d152eb0b7a3db506c4d3ffbc922d38f27b8"
+    },
+    "static/fonts/source-code-pro/WOFF/TTF/SourceCodePro-BoldIt.ttf.woff": {
+      "kind": "file",
+      "sha256": "542966cedaedfd0347906c454f8d0df9d7240787345ecab826ddd52646a7e666"
+    },
+    "static/fonts/source-code-pro/WOFF/TTF/SourceCodePro-ExtraLight.ttf.woff": {
+      "kind": "file",
+      "sha256": "6762e850ed418c729eed10ccb8d582ec3c04ea2a261324d1f29942b7cd95e874"
+    },
+    "static/fonts/source-code-pro/WOFF/TTF/SourceCodePro-ExtraLightIt.ttf.woff": {
+      "kind": "file",
+      "sha256": "5ba40d78777ddd9530c72f72bb1e7daf82a8556f1caea964ceaf88ac8d9a3eab"
+    },
+    "static/fonts/source-code-pro/WOFF/TTF/SourceCodePro-It.ttf.woff": {
+      "kind": "file",
+      "sha256": "07d1282a2c47cdd8f274767fe56b35d466e1ceb2a082610d4dd95f7c613a531b"
+    },
+    "static/fonts/source-code-pro/WOFF/TTF/SourceCodePro-Light.ttf.woff": {
+      "kind": "file",
+      "sha256": "fcb4511a21ac1bf495c952b3b64b016bb679847d609ffa133f7b5f1dc6569cdf"
+    },
+    "static/fonts/source-code-pro/WOFF/TTF/SourceCodePro-LightIt.ttf.woff": {
+      "kind": "file",
+      "sha256": "36b58610ab46d22b19cc89cd21e175dd3ccab26fbf85de3a12b36ebc50a0b9a4"
+    },
+    "static/fonts/source-code-pro/WOFF/TTF/SourceCodePro-Medium.ttf.woff": {
+      "kind": "file",
+      "sha256": "6d94231fcde60b61df091128b9ae2fbbfa8c163fd0b632c28cfeb4d9bfec1bd9"
+    },
+    "static/fonts/source-code-pro/WOFF/TTF/SourceCodePro-MediumIt.ttf.woff": {
+      "kind": "file",
+      "sha256": "1436344ce222d53bfc3c69806b3c5c8eaf54b7054b84889196d5b1b1f1a09b1e"
+    },
+    "static/fonts/source-code-pro/WOFF/TTF/SourceCodePro-Regular.ttf.woff": {
+      "kind": "file",
+      "sha256": "76e0c4f8f8e3f6a14e1a75fca5793e9c45decebadfd7492e83f3b54033e1c9f4"
+    },
+    "static/fonts/source-code-pro/WOFF/TTF/SourceCodePro-Semibold.ttf.woff": {
+      "kind": "file",
+      "sha256": "2625fc4ab62fab75d27b6e7d2341497c96add22df40c9079a9f8538c8b0ec53c"
+    },
+    "static/fonts/source-code-pro/WOFF/TTF/SourceCodePro-SemiboldIt.ttf.woff": {
+      "kind": "file",
+      "sha256": "484c900c1264c842ccb8807c18df83410ea41ccbd9a01ffdf2499749fadc9789"
+    },
+    "static/fonts/source-code-pro/WOFF2/OTF/SourceCodePro-Black.otf.woff2": {
+      "kind": "file",
+      "sha256": "dfb44c4229923ce532754c204de4316049efbaa7200cff637bffbcc8deec0ae7"
+    },
+    "static/fonts/source-code-pro/WOFF2/OTF/SourceCodePro-BlackIt.otf.woff2": {
+      "kind": "file",
+      "sha256": "7029cf0c0e887b67b32407d5264505587793858d463c2b8eeaad5c174f1b5c25"
+    },
+    "static/fonts/source-code-pro/WOFF2/OTF/SourceCodePro-Bold.otf.woff2": {
+      "kind": "file",
+      "sha256": "e5e15b262fa1b6cfe91ae9ff019adc3592398d9dedf63bed2827ad36de4cf63b"
+    },
+    "static/fonts/source-code-pro/WOFF2/OTF/SourceCodePro-BoldIt.otf.woff2": {
+      "kind": "file",
+      "sha256": "c9d7791f306df9bd424b11e4c432b4934e1f0a0d58594573c43837c32e8ce01c"
+    },
+    "static/fonts/source-code-pro/WOFF2/OTF/SourceCodePro-ExtraLight.otf.woff2": {
+      "kind": "file",
+      "sha256": "89a48b7747f7d3334a82d81d6852c6b5edc8249159cbc074450e852cf1729211"
+    },
+    "static/fonts/source-code-pro/WOFF2/OTF/SourceCodePro-ExtraLightIt.otf.woff2": {
+      "kind": "file",
+      "sha256": "f33f2a5c46abe594c090812586d77a2d69d96960958bcfcb6705440e12c3545d"
+    },
+    "static/fonts/source-code-pro/WOFF2/OTF/SourceCodePro-It.otf.woff2": {
+      "kind": "file",
+      "sha256": "5f278035ffeae1ac168a21635b529505bf5e17c41e99b1ce7042fb4e341d976a"
+    },
+    "static/fonts/source-code-pro/WOFF2/OTF/SourceCodePro-Light.otf.woff2": {
+      "kind": "file",
+      "sha256": "8ce9cc19d3febd7e2863b18e92ad7004fbd0249488e53a1e9e2a81051f1c7edf"
+    },
+    "static/fonts/source-code-pro/WOFF2/OTF/SourceCodePro-LightIt.otf.woff2": {
+      "kind": "file",
+      "sha256": "2ec15b7032b235adf5a5fb97e32d55dc77cbf34aefd73b61d8180dfe37d7e468"
+    },
+    "static/fonts/source-code-pro/WOFF2/OTF/SourceCodePro-Medium.otf.woff2": {
+      "kind": "file",
+      "sha256": "6c22ecbb3630944f0e2ac58f19a9cf23523399e8e1c12bd2100d5f6a79affea8"
+    },
+    "static/fonts/source-code-pro/WOFF2/OTF/SourceCodePro-MediumIt.otf.woff2": {
+      "kind": "file",
+      "sha256": "b69bdb74c6a827d10362c77e0024be63843649732a641dbde0c26d646b2df0a0"
+    },
+    "static/fonts/source-code-pro/WOFF2/OTF/SourceCodePro-Regular.otf.woff2": {
+      "kind": "file",
+      "sha256": "23a0d7981dc90c0a8ec7d8a6ca7ee5dc439c777f3e2aabcf1009fdcf0e821b79"
+    },
+    "static/fonts/source-code-pro/WOFF2/OTF/SourceCodePro-Semibold.otf.woff2": {
+      "kind": "file",
+      "sha256": "ccfcf42d049fb8dc6fbcae3aef276d733f88991593cd3bdf4cbfe97b02eed1bc"
+    },
+    "static/fonts/source-code-pro/WOFF2/OTF/SourceCodePro-SemiboldIt.otf.woff2": {
+      "kind": "file",
+      "sha256": "3e26e98afcdf8eafff958c175889706bc31420c55e2dc807e6c5bcc4aafea251"
+    },
+    "static/fonts/source-code-pro/WOFF2/OTF/SourceCodeVF-Italic.otf.woff2": {
+      "kind": "file",
+      "sha256": "e351b6c66efc67469a0ba5091b1f71af25827548e7e987fb97c52820fe94a6b4"
+    },
+    "static/fonts/source-code-pro/WOFF2/OTF/SourceCodeVF-Upright.otf.woff2": {
+      "kind": "file",
+      "sha256": "3765cc451143b207f4c6fcedc9895807abe74202064205f4ece36f030ba8ee9a"
+    },
+    "static/fonts/source-code-pro/WOFF2/TTF/SourceCodePro-Black.ttf.woff2": {
+      "kind": "file",
+      "sha256": "3e61b745ddbfc4f3f9aa1a0be4020b3031cad8b8b1365538ebb5c27314ecf7c3"
+    },
+    "static/fonts/source-code-pro/WOFF2/TTF/SourceCodePro-BlackIt.ttf.woff2": {
+      "kind": "file",
+      "sha256": "222e60d9149d7d92869275ff5cefa988ffcd78624216f7a65d7f0bd9670339cc"
+    },
+    "static/fonts/source-code-pro/WOFF2/TTF/SourceCodePro-Bold.ttf.woff2": {
+      "kind": "file",
+      "sha256": "1916890a0a7e223c45308421dc7f20e31bca062888634ff09a24cb2b4c0b43c6"
+    },
+    "static/fonts/source-code-pro/WOFF2/TTF/SourceCodePro-BoldIt.ttf.woff2": {
+      "kind": "file",
+      "sha256": "8d52472fd9e6f0c69fc6845d8bb06ee80fc48b854727bfd1878e2a6359aa7369"
+    },
+    "static/fonts/source-code-pro/WOFF2/TTF/SourceCodePro-ExtraLight.ttf.woff2": {
+      "kind": "file",
+      "sha256": "e1bf1ab6dd308d7d159eadb899523f7cbd9f790b1f97d3218ca911996703bcb3"
+    },
+    "static/fonts/source-code-pro/WOFF2/TTF/SourceCodePro-ExtraLightIt.ttf.woff2": {
+      "kind": "file",
+      "sha256": "924eb66c17ff45f4f2c8e7f6a4383dcc624a7cf2554c30d6f8ccb3c0d09e8aa6"
+    },
+    "static/fonts/source-code-pro/WOFF2/TTF/SourceCodePro-It.ttf.woff2": {
+      "kind": "file",
+      "sha256": "f65d785ba392916d5d26288a29abcb775fd07531edbff4a5ebb1cd428592bbc8"
+    },
+    "static/fonts/source-code-pro/WOFF2/TTF/SourceCodePro-Light.ttf.woff2": {
+      "kind": "file",
+      "sha256": "4f44ceede7bee5fc44871fe6d574a65f013e042229954cae25dea4687e6c7724"
+    },
+    "static/fonts/source-code-pro/WOFF2/TTF/SourceCodePro-LightIt.ttf.woff2": {
+      "kind": "file",
+      "sha256": "c1b824374da265deb39f08164c846fe1b52d899169a94839117a4f885cd425d5"
+    },
+    "static/fonts/source-code-pro/WOFF2/TTF/SourceCodePro-Medium.ttf.woff2": {
+      "kind": "file",
+      "sha256": "924641f3612b80982d2d32350d4bed27fad682d7220b3dcf2f3370c94b949c34"
+    },
+    "static/fonts/source-code-pro/WOFF2/TTF/SourceCodePro-MediumIt.ttf.woff2": {
+      "kind": "file",
+      "sha256": "c76f625a88617588017a2d55afef59f96d6b1a7d19cb0676cc6bdd592d0a957d"
+    },
+    "static/fonts/source-code-pro/WOFF2/TTF/SourceCodePro-Regular.ttf.woff2": {
+      "kind": "file",
+      "sha256": "714eee29b70d191f5bf4b3a06b68f2c50522b1303d31c7d44dcefdcc5f9defd0"
+    },
+    "static/fonts/source-code-pro/WOFF2/TTF/SourceCodePro-Semibold.ttf.woff2": {
+      "kind": "file",
+      "sha256": "488b2806e8a76192c2ceef29b498ba01e46b697578b200ede1b5cad855c379ba"
+    },
+    "static/fonts/source-code-pro/WOFF2/TTF/SourceCodePro-SemiboldIt.ttf.woff2": {
+      "kind": "file",
+      "sha256": "e2b39991bf098d36207239021e85c4905fbb8d505c784a12dac7bc9641d98786"
+    },
+    "static/fonts/source-code-pro/WOFF2/TTF/SourceCodeVF-Italic.ttf.woff2": {
+      "kind": "file",
+      "sha256": "05c46eaa770abdf960f887f6b5bd393f57850c1572c4a18ea133fdf497daaa3a"
+    },
+    "static/fonts/source-code-pro/WOFF2/TTF/SourceCodeVF-Upright.ttf.woff2": {
+      "kind": "file",
+      "sha256": "0c56a32f4f7d89d8cdf6bec01b4a7ae7362aba35169404af0e43b0c4e1f14d65"
+    },
+    "static/fonts/source-code-pro/source-code-pro.css": {
+      "kind": "file",
+      "sha256": "7b456bb18ae8d6f4f2029bde47a0608eb05759ebec0e126f7e05f51b1924231e"
+    },
+    "static/fonts/source-sans/LICENSE.md": {
+      "kind": "file",
+      "sha256": "56af9b9c6715597e458284a474dc118a50a4150e9d547c70f7b4a33c3e6a9328"
+    },
+    "static/fonts/source-sans/OTF/SourceSans3-Black.otf": {
+      "kind": "file",
+      "sha256": "2fef2100eb883a68f04495c98c900c9e0a6b2168a4edcd55837b6e8e05c65952"
+    },
+    "static/fonts/source-sans/OTF/SourceSans3-BlackIt.otf": {
+      "kind": "file",
+      "sha256": "7c6ddd2d1957d7f380620db07fc3b6ca8ca0d4f8196005ee14f9446d2196cfda"
+    },
+    "static/fonts/source-sans/OTF/SourceSans3-Bold.otf": {
+      "kind": "file",
+      "sha256": "7776ddb9f3eb58683e59f28d558d8896b768c2d0c80799fb3f1c56c54dfd98c9"
+    },
+    "static/fonts/source-sans/OTF/SourceSans3-BoldIt.otf": {
+      "kind": "file",
+      "sha256": "05e97d9adc01059607e97b167a68afb25680db904db7aba831dc2510f14b6515"
+    },
+    "static/fonts/source-sans/OTF/SourceSans3-ExtraLight.otf": {
+      "kind": "file",
+      "sha256": "ee732d9afc20265c831cb1c1f1060957de036bbfe80a0965db1ccc1d61938499"
+    },
+    "static/fonts/source-sans/OTF/SourceSans3-ExtraLightIt.otf": {
+      "kind": "file",
+      "sha256": "ae94815685f545fe8877290299c28d883b5eff9376612c4c7cc82ce877145f2e"
+    },
+    "static/fonts/source-sans/OTF/SourceSans3-It.otf": {
+      "kind": "file",
+      "sha256": "430b9f0eb1170be0981706d14b6cf87122efba9d86c373bbdf69daf276421462"
+    },
+    "static/fonts/source-sans/OTF/SourceSans3-Light.otf": {
+      "kind": "file",
+      "sha256": "bbfab2c58d46defe8a194634744660ee15d560dcf3d7a8c7bb509936acc618c7"
+    },
+    "static/fonts/source-sans/OTF/SourceSans3-LightIt.otf": {
+      "kind": "file",
+      "sha256": "abd8f5b080ec26a9592a77285b921a8e296b688f479232a721c7129bf068c64a"
+    },
+    "static/fonts/source-sans/OTF/SourceSans3-Medium.otf": {
+      "kind": "file",
+      "sha256": "02607dc31274d1589a996b8a78e71f256f56d1633a797fe8103dbd8fa9893db6"
+    },
+    "static/fonts/source-sans/OTF/SourceSans3-MediumIt.otf": {
+      "kind": "file",
+      "sha256": "d2655b319171f712079bcab2352c0c54f166d1d4d8c2d0b9ce55278667562254"
+    },
+    "static/fonts/source-sans/OTF/SourceSans3-Regular.otf": {
+      "kind": "file",
+      "sha256": "08df266400933d3178d081a45f94a08814c3e55b4b7dd2e0ff69cb1329f13ab6"
+    },
+    "static/fonts/source-sans/OTF/SourceSans3-Semibold.otf": {
+      "kind": "file",
+      "sha256": "36f1cd2c344aa3109e64429bce41a41e4b2b923beb2db19b8dbf9bb56f05a4f9"
+    },
+    "static/fonts/source-sans/OTF/SourceSans3-SemiboldIt.otf": {
+      "kind": "file",
+      "sha256": "81204ed282543df2d93db214c98b5ec1c9ce735c4c82e4323d5ae5ee69c6b8b7"
+    },
+    "static/fonts/source-sans/TTF/SourceSans3-Black.ttf": {
+      "kind": "file",
+      "sha256": "ac3a8e48c6076b8dd800bdd6e69f20321ee039fa81aeca57ca630afd6d514d07"
+    },
+    "static/fonts/source-sans/TTF/SourceSans3-BlackIt.ttf": {
+      "kind": "file",
+      "sha256": "ab2a57c339ff7beea3456c8857301cd121448aa9302151dae40a37ec435fc55e"
+    },
+    "static/fonts/source-sans/TTF/SourceSans3-Bold.ttf": {
+      "kind": "file",
+      "sha256": "9214b9d95e4231c609802815c2646c98174e2102d0d37f88978a7f8e71006e6a"
+    },
+    "static/fonts/source-sans/TTF/SourceSans3-BoldIt.ttf": {
+      "kind": "file",
+      "sha256": "7978291fc1bf314db887e0366853b33c5cf2e964c7b95cfb9ce403a6ec46a842"
+    },
+    "static/fonts/source-sans/TTF/SourceSans3-ExtraLight.ttf": {
+      "kind": "file",
+      "sha256": "a6f1bda5ddc9125b7e6b882528e898d42e0573dd17c4b9ebd1449990246aa44e"
+    },
+    "static/fonts/source-sans/TTF/SourceSans3-ExtraLightIt.ttf": {
+      "kind": "file",
+      "sha256": "103ad6ff4c8ed1480bf52d2612693f8ffa083ed51f0c11032a2e3cb327f9693a"
+    },
+    "static/fonts/source-sans/TTF/SourceSans3-It.ttf": {
+      "kind": "file",
+      "sha256": "192afd78f0f54a3c69eaf02d43f4d9a821e9d6110e41d3d25d61a7385cd580e4"
+    },
+    "static/fonts/source-sans/TTF/SourceSans3-Light.ttf": {
+      "kind": "file",
+      "sha256": "fcc10d83a12844e7dc699b1bb85f65f0d1bb0179de216feb5d28f806500f7cef"
+    },
+    "static/fonts/source-sans/TTF/SourceSans3-LightIt.ttf": {
+      "kind": "file",
+      "sha256": "d80928830815a06f805760ff386f0919ab077816b360ca17f146394716e2eca0"
+    },
+    "static/fonts/source-sans/TTF/SourceSans3-Medium.ttf": {
+      "kind": "file",
+      "sha256": "a7af35c1cab5dd0b29d742f86f2edfdf83fa7ec213643e765c5c51a2dc24edbc"
+    },
+    "static/fonts/source-sans/TTF/SourceSans3-MediumIt.ttf": {
+      "kind": "file",
+      "sha256": "abb47f35400c01bc23406bea4ba3319f4aafc02c19703efe98efedb799719753"
+    },
+    "static/fonts/source-sans/TTF/SourceSans3-Regular.ttf": {
+      "kind": "file",
+      "sha256": "4644c81b86ec9caaa76b634889968ed3c4f4f52f054855933acc7c2b21e53b0f"
+    },
+    "static/fonts/source-sans/TTF/SourceSans3-Semibold.ttf": {
+      "kind": "file",
+      "sha256": "a3f4f8dcf343a8f24dc61951de93f3ba1558b15cd250ba24af8a40e957081b7d"
+    },
+    "static/fonts/source-sans/TTF/SourceSans3-SemiboldIt.ttf": {
+      "kind": "file",
+      "sha256": "8221d5e4bd3cf249e8023a5f8fad024d37c2def0f3d3aa7fd1f5830afda51f34"
+    },
+    "static/fonts/source-sans/VF/SourceSans3VF-Italic.otf": {
+      "kind": "file",
+      "sha256": "3f5646523c6e8c504d06a34ce05a190b87c071c4d318296fd88794fd7b6bab57"
+    },
+    "static/fonts/source-sans/VF/SourceSans3VF-Italic.ttf": {
+      "kind": "file",
+      "sha256": "c34791f4f889af43d84e2f84ebeb02e6eed07058aca21e6729d26e6436d18965"
+    },
+    "static/fonts/source-sans/VF/SourceSans3VF-Upright.otf": {
+      "kind": "file",
+      "sha256": "3d0dfd6a3a644ab3d462a737923ffac41fb0ae007ce9ba83c24e6bfa76aa56c7"
+    },
+    "static/fonts/source-sans/VF/SourceSans3VF-Upright.ttf": {
+      "kind": "file",
+      "sha256": "1147db9a3f0edd4956068de77930148acce2742dd76d57f7239b2b1c687ac63f"
+    },
+    "static/fonts/source-sans/WOFF/OTF/SourceSans3-Black.otf.woff": {
+      "kind": "file",
+      "sha256": "805c72226fa54ec05fa7b185040993095055844e3fca66f2794401b5230d99fe"
+    },
+    "static/fonts/source-sans/WOFF/OTF/SourceSans3-BlackIt.otf.woff": {
+      "kind": "file",
+      "sha256": "bced4723d4d12515e77266c69b37ee2a333954080e53627d7ca272ee60ce43b9"
+    },
+    "static/fonts/source-sans/WOFF/OTF/SourceSans3-Bold.otf.woff": {
+      "kind": "file",
+      "sha256": "9cd09c2d6984753a2163999c33826d049bd423b504bc44fc8bf29cb4586b0066"
+    },
+    "static/fonts/source-sans/WOFF/OTF/SourceSans3-BoldIt.otf.woff": {
+      "kind": "file",
+      "sha256": "35a8a47ff79149cf166a1dfdd5792f320906fcd4d37ef696c8de4645ee03b122"
+    },
+    "static/fonts/source-sans/WOFF/OTF/SourceSans3-ExtraLight.otf.woff": {
+      "kind": "file",
+      "sha256": "8c00ac7f1d9916d2c451b077586e3f4d4b993f96a2a1c668e4918b1d4915ae61"
+    },
+    "static/fonts/source-sans/WOFF/OTF/SourceSans3-ExtraLightIt.otf.woff": {
+      "kind": "file",
+      "sha256": "c1cdad871469ed181f20f19c3ea663862f0f4550be2675bef1169062c5151d89"
+    },
+    "static/fonts/source-sans/WOFF/OTF/SourceSans3-It.otf.woff": {
+      "kind": "file",
+      "sha256": "c45e5738462958b0ae7587b659ee97d133bc7d7811fcdefeef3b44e92e6bc2e4"
+    },
+    "static/fonts/source-sans/WOFF/OTF/SourceSans3-Light.otf.woff": {
+      "kind": "file",
+      "sha256": "95531749acf308ff6358e8c135a7e5f4083053d719237cd5695773e2440d0935"
+    },
+    "static/fonts/source-sans/WOFF/OTF/SourceSans3-LightIt.otf.woff": {
+      "kind": "file",
+      "sha256": "3ca72bfde44777198acc56d53625272f1f6d996479ddd935528a3215fa5dab5f"
+    },
+    "static/fonts/source-sans/WOFF/OTF/SourceSans3-Medium.otf.woff": {
+      "kind": "file",
+      "sha256": "9dd6329f9a959557d88466060bc65e7f09601ef5b7e2de45e196246f46f88b75"
+    },
+    "static/fonts/source-sans/WOFF/OTF/SourceSans3-MediumIt.otf.woff": {
+      "kind": "file",
+      "sha256": "e0e0d317f9fbfe2fc10b16b324de46b949b27ab73ac7b723b5c3d6443fe8017a"
+    },
+    "static/fonts/source-sans/WOFF/OTF/SourceSans3-Regular.otf.woff": {
+      "kind": "file",
+      "sha256": "1e4d7d425e9ace7d40defb608000157205b82b5edb2f966bbcd04b55d674b719"
+    },
+    "static/fonts/source-sans/WOFF/OTF/SourceSans3-Semibold.otf.woff": {
+      "kind": "file",
+      "sha256": "602c96e2eeac2f13878019069035d728093146b9f99a681d2de21870627179d3"
+    },
+    "static/fonts/source-sans/WOFF/OTF/SourceSans3-SemiboldIt.otf.woff": {
+      "kind": "file",
+      "sha256": "cff3a3963a724bf8839cedbd039d947e07afedbe988d8887937e034c3062ed00"
+    },
+    "static/fonts/source-sans/WOFF/TTF/SourceSans3-Black.ttf.woff": {
+      "kind": "file",
+      "sha256": "83e0c11491b53189fe01fc99cc81316d20aafe7979f75e6010efb642a6cd6080"
+    },
+    "static/fonts/source-sans/WOFF/TTF/SourceSans3-BlackIt.ttf.woff": {
+      "kind": "file",
+      "sha256": "8784b8b66977b557343ac70d4b23409ee7994d22e8da5dfaddbb7ab2e5e28aec"
+    },
+    "static/fonts/source-sans/WOFF/TTF/SourceSans3-Bold.ttf.woff": {
+      "kind": "file",
+      "sha256": "1a6a0c7057d2bf1c2214c9fbed51b9dce30cc450866048c1a239ce49da045eb8"
+    },
+    "static/fonts/source-sans/WOFF/TTF/SourceSans3-BoldIt.ttf.woff": {
+      "kind": "file",
+      "sha256": "2b96cbc9e9658cf1a6e7155d50b2c64c1073ff05061f069ce421e346553cd3d8"
+    },
+    "static/fonts/source-sans/WOFF/TTF/SourceSans3-ExtraLight.ttf.woff": {
+      "kind": "file",
+      "sha256": "dd0a9702c7cb2060dbb93bbef2af7eae6be9fb0490c997aff26817cfd7ece65a"
+    },
+    "static/fonts/source-sans/WOFF/TTF/SourceSans3-ExtraLightIt.ttf.woff": {
+      "kind": "file",
+      "sha256": "1951539ee1d7eab2c56d0fb6eba1bb7b91f501d17c576a03b37371d6e8c3dac8"
+    },
+    "static/fonts/source-sans/WOFF/TTF/SourceSans3-It.ttf.woff": {
+      "kind": "file",
+      "sha256": "d1d8f83d8f2a032e67569a2eb27633122124eab25aa0d22444836b69b87aa893"
+    },
+    "static/fonts/source-sans/WOFF/TTF/SourceSans3-Light.ttf.woff": {
+      "kind": "file",
+      "sha256": "db07afa7051fb06b1dcaaeadf18fa6ba0a9bfcdf0f19e9c7112432548cb19646"
+    },
+    "static/fonts/source-sans/WOFF/TTF/SourceSans3-LightIt.ttf.woff": {
+      "kind": "file",
+      "sha256": "d8a7279aa45590e53d1529631badc2c3ca0104ebd24ec7ab59e62be54321115b"
+    },
+    "static/fonts/source-sans/WOFF/TTF/SourceSans3-Medium.ttf.woff": {
+      "kind": "file",
+      "sha256": "5b2d2cb0118709546c4f0c02638b3bf583f77b6e5cf90a4d89411f4cd6dd6117"
+    },
+    "static/fonts/source-sans/WOFF/TTF/SourceSans3-MediumIt.ttf.woff": {
+      "kind": "file",
+      "sha256": "f27d1ea1a40873379c2439f821662d4cefac02b95ca39f57f6af5bea5228a21c"
+    },
+    "static/fonts/source-sans/WOFF/TTF/SourceSans3-Regular.ttf.woff": {
+      "kind": "file",
+      "sha256": "56413337e96f5764882f3e18eaa654eec27515ec7c3de3520eec9e36b25371b9"
+    },
+    "static/fonts/source-sans/WOFF/TTF/SourceSans3-Semibold.ttf.woff": {
+      "kind": "file",
+      "sha256": "d2e2dc16ddc30ca0cd5c7991682badd18ed701fd1d2ead8784153af731d79ce6"
+    },
+    "static/fonts/source-sans/WOFF/TTF/SourceSans3-SemiboldIt.ttf.woff": {
+      "kind": "file",
+      "sha256": "2c1a143f576a37be6009891db820e4e6f651dcb89ec88e7a96fa3af920abbaed"
+    },
+    "static/fonts/source-sans/WOFF/VF/SourceSans3VF-Italic.otf.woff": {
+      "kind": "file",
+      "sha256": "4f581e32e1e97bf56eaa02dfafa7df09e87d3c0e01ee4277b86989fa8b1eae85"
+    },
+    "static/fonts/source-sans/WOFF/VF/SourceSans3VF-Italic.ttf.woff": {
+      "kind": "file",
+      "sha256": "6cf198c9bd9778f7c53c5778e6118d6a674dddd597f0964b396d98c66400a40a"
+    },
+    "static/fonts/source-sans/WOFF/VF/SourceSans3VF-Upright.otf.woff": {
+      "kind": "file",
+      "sha256": "19f48ba4adda5ed5e18c73b127802b8531d997bb851d321600f88670299035a1"
+    },
+    "static/fonts/source-sans/WOFF/VF/SourceSans3VF-Upright.ttf.woff": {
+      "kind": "file",
+      "sha256": "c3271ad9a7580f3027d46f988dfed74f7b29d97aceb2cee05d72e0874359397d"
+    },
+    "static/fonts/source-sans/WOFF2/OTF/SourceSans3-Black.otf.woff2": {
+      "kind": "file",
+      "sha256": "579ccebb76a304adac9f91802067a56c0563104858ca6cebcc89fd3b92bd900f"
+    },
+    "static/fonts/source-sans/WOFF2/OTF/SourceSans3-BlackIt.otf.woff2": {
+      "kind": "file",
+      "sha256": "c9a39cf9375d8ed619db90cc15423b104692e189d4ee885fd68b376555b45dce"
+    },
+    "static/fonts/source-sans/WOFF2/OTF/SourceSans3-Bold.otf.woff2": {
+      "kind": "file",
+      "sha256": "12954097ebbad6749ee1c81a143d555c263420115892211529fe6f51794b8439"
+    },
+    "static/fonts/source-sans/WOFF2/OTF/SourceSans3-BoldIt.otf.woff2": {
+      "kind": "file",
+      "sha256": "9b7c4112e87b5c4c1bb59d4fd4ca741765c88e515538c7537875738070e9941f"
+    },
+    "static/fonts/source-sans/WOFF2/OTF/SourceSans3-ExtraLight.otf.woff2": {
+      "kind": "file",
+      "sha256": "179a142a86302c8e060512094898d05d43d59001718f037009323b559428b449"
+    },
+    "static/fonts/source-sans/WOFF2/OTF/SourceSans3-ExtraLightIt.otf.woff2": {
+      "kind": "file",
+      "sha256": "722d27de39a6d7e7c6fff086079ef69b4ff1f10057aaaa47866444b7d1e14656"
+    },
+    "static/fonts/source-sans/WOFF2/OTF/SourceSans3-It.otf.woff2": {
+      "kind": "file",
+      "sha256": "69c8e1806941beb7071e2cf0bc54ee03cf4d59eab07fcb5418b1c86c52d39a72"
+    },
+    "static/fonts/source-sans/WOFF2/OTF/SourceSans3-Light.otf.woff2": {
+      "kind": "file",
+      "sha256": "2d5308c1e971769ab7a3d4a406507bb941e6126b179caf39edabd39b9bb726c0"
+    },
+    "static/fonts/source-sans/WOFF2/OTF/SourceSans3-LightIt.otf.woff2": {
+      "kind": "file",
+      "sha256": "e0f8c24ae66cc7e6e8f32e645e072589b534a9a48ddb14c387d110d47f03b63a"
+    },
+    "static/fonts/source-sans/WOFF2/OTF/SourceSans3-Medium.otf.woff2": {
+      "kind": "file",
+      "sha256": "8a0c505a954dea762a41cb9f299b1623902a99e1f34456015313927721e2071f"
+    },
+    "static/fonts/source-sans/WOFF2/OTF/SourceSans3-MediumIt.otf.woff2": {
+      "kind": "file",
+      "sha256": "546f02badbc25bbbc5168af69519b67e94a8a4882797e56d50ec4ee53e100409"
+    },
+    "static/fonts/source-sans/WOFF2/OTF/SourceSans3-Regular.otf.woff2": {
+      "kind": "file",
+      "sha256": "63de0da0cc05298e2e9c6e5cef506d8454ca665f6e668a99d94f51174b9256ed"
+    },
+    "static/fonts/source-sans/WOFF2/OTF/SourceSans3-Semibold.otf.woff2": {
+      "kind": "file",
+      "sha256": "c248b0a178c362916db7c853ed640db77f184d19a0ed9fa5591fa707d3089635"
+    },
+    "static/fonts/source-sans/WOFF2/OTF/SourceSans3-SemiboldIt.otf.woff2": {
+      "kind": "file",
+      "sha256": "5c1e18e8e97d9d35e819866b3daa944e12b00d76696bbc84c674fa8a23c93891"
+    },
+    "static/fonts/source-sans/WOFF2/TTF/SourceSans3-Black.ttf.woff2": {
+      "kind": "file",
+      "sha256": "20698b6085d6bc3db5577c1398a42e089ca772b33b9c38267de1325561034d45"
+    },
+    "static/fonts/source-sans/WOFF2/TTF/SourceSans3-BlackIt.ttf.woff2": {
+      "kind": "file",
+      "sha256": "83327dde35da020a55e31c604eda8ea599771974b70250a6d373852d5d4b77d8"
+    },
+    "static/fonts/source-sans/WOFF2/TTF/SourceSans3-Bold.ttf.woff2": {
+      "kind": "file",
+      "sha256": "8d35c6d40e750a4ee23bbbba2bd604ad098d172907369b43281507e16b8e2e7a"
+    },
+    "static/fonts/source-sans/WOFF2/TTF/SourceSans3-BoldIt.ttf.woff2": {
+      "kind": "file",
+      "sha256": "8c4b66aea0e7887dfd1e296b03ae53b76ce25256fae1437777514933acaef0f3"
+    },
+    "static/fonts/source-sans/WOFF2/TTF/SourceSans3-ExtraLight.ttf.woff2": {
+      "kind": "file",
+      "sha256": "ff74c13ea991144c3af065e3a5a8327654d2b560169342ed2748b7d49ba8eff1"
+    },
+    "static/fonts/source-sans/WOFF2/TTF/SourceSans3-ExtraLightIt.ttf.woff2": {
+      "kind": "file",
+      "sha256": "689861b4ce18b5a17302966c1893ff9f6e1b1eadc1a772b3ce9353a1dc9ef036"
+    },
+    "static/fonts/source-sans/WOFF2/TTF/SourceSans3-It.ttf.woff2": {
+      "kind": "file",
+      "sha256": "4d80b3b801f4c457f1b4adbd3911d8501338e6d282141663770c38d3a2e97859"
+    },
+    "static/fonts/source-sans/WOFF2/TTF/SourceSans3-Light.ttf.woff2": {
+      "kind": "file",
+      "sha256": "1fd6d4d511c3161a5a3555efa585fbe18cde2f151a79bd0af4655c5093fca90c"
+    },
+    "static/fonts/source-sans/WOFF2/TTF/SourceSans3-LightIt.ttf.woff2": {
+      "kind": "file",
+      "sha256": "a5696d5ee159c1efae034f006be366ef22bb69e154e5cfbe335e2dbda1639f86"
+    },
+    "static/fonts/source-sans/WOFF2/TTF/SourceSans3-Medium.ttf.woff2": {
+      "kind": "file",
+      "sha256": "437a67034cb2ce4cb20d7f808e748e08ac201e15077a075a69baf67d8376a0c3"
+    },
+    "static/fonts/source-sans/WOFF2/TTF/SourceSans3-MediumIt.ttf.woff2": {
+      "kind": "file",
+      "sha256": "908b9776b16254c49b9a98bc7f4d7ccb7399d39272522d446847c5ec73bd7202"
+    },
+    "static/fonts/source-sans/WOFF2/TTF/SourceSans3-Regular.ttf.woff2": {
+      "kind": "file",
+      "sha256": "53492fb3a0def77354f166a55d09b63a10855e91c206c7620a81cf56e97f8ec3"
+    },
+    "static/fonts/source-sans/WOFF2/TTF/SourceSans3-Semibold.ttf.woff2": {
+      "kind": "file",
+      "sha256": "47b9b661b9f395fe7f0d0e119637fba5c8dad97bde3df60066fd24229c0792f4"
+    },
+    "static/fonts/source-sans/WOFF2/TTF/SourceSans3-SemiboldIt.ttf.woff2": {
+      "kind": "file",
+      "sha256": "552d2d08e719d09413fbfff81f6fa16f153ad87edf6a49d69df9c303fea71ae6"
+    },
+    "static/fonts/source-sans/WOFF2/VF/SourceSans3VF-Italic.otf.woff2": {
+      "kind": "file",
+      "sha256": "2cac627e742dec5b6fa73a0ad243a97e189c362ea11ae85c22b2e52b214d00a3"
+    },
+    "static/fonts/source-sans/WOFF2/VF/SourceSans3VF-Italic.ttf.woff2": {
+      "kind": "file",
+      "sha256": "b4959abc0569392f87c6c6ac612f90e3fe0104d283724189b7d8b6f61af347d3"
+    },
+    "static/fonts/source-sans/WOFF2/VF/SourceSans3VF-Upright.otf.woff2": {
+      "kind": "file",
+      "sha256": "f9e4eac0e8f8ffdae91cf6eff3962b96e81417cba5c728bc1c89efe9510e7653"
+    },
+    "static/fonts/source-sans/WOFF2/VF/SourceSans3VF-Upright.ttf.woff2": {
+      "kind": "file",
+      "sha256": "5f16566f7a40d39b339ad26be151fa5a1ab1f0c2574c7a2e619765584a1acbd8"
+    },
+    "static/fonts/source-sans/source-sans-3.css": {
+      "kind": "file",
+      "sha256": "e571b56022e53c96702f46455a56f61b2b6fdb1d621c3230cc28fe9b21183e0a"
+    },
+    "static/fonts/source-sans/source-sans-3VF.css": {
+      "kind": "file",
+      "sha256": "2a94debe6d7b2d76ee42819cef3aa2902b4d190dfe26b33d777f06d465da6436"
+    },
+    "static/fonts/source-serif/LICENSE.md": {
+      "kind": "file",
+      "sha256": "c21d7293d87b6d7ab1d0229a2f55b77f33a7613a6a4e66f6693d68d7d8d09464"
+    },
+    "static/fonts/source-serif/OTF/SourceSerif4-Black.otf": {
+      "kind": "file",
+      "sha256": "47feb7b4ecac3271e988fe399b9a26e220f428c0acfa55e59744f9dc5a1e6f41"
+    },
+    "static/fonts/source-serif/OTF/SourceSerif4-BlackIt.otf": {
+      "kind": "file",
+      "sha256": "22e74ee4d16b716e481af222899b3894bcd5223c57ba1758d303d2eff68810f8"
+    },
+    "static/fonts/source-serif/OTF/SourceSerif4-Bold.otf": {
+      "kind": "file",
+      "sha256": "f5fb9a7b1611353fdfebcf8b1e46c7d9108470f25999b841816d8b643b1856ff"
+    },
+    "static/fonts/source-serif/OTF/SourceSerif4-BoldIt.otf": {
+      "kind": "file",
+      "sha256": "ebb5394e1e11e09480619c9bb10f020aded9530833edcbdb735a4702ae6fa09e"
+    },
+    "static/fonts/source-serif/OTF/SourceSerif4-ExtraLight.otf": {
+      "kind": "file",
+      "sha256": "29b8e7e8179978ce9b608460d9af71ac3da723687712e291fb0bedadede7f97a"
+    },
+    "static/fonts/source-serif/OTF/SourceSerif4-ExtraLightIt.otf": {
+      "kind": "file",
+      "sha256": "571ff10751f654f4ef38f78e5b394cb8a84539fd063e052530bdd19e1622316d"
+    },
+    "static/fonts/source-serif/OTF/SourceSerif4-It.otf": {
+      "kind": "file",
+      "sha256": "f8062257f4693e438a8e317c9fe2b4393f0d4eed84d897edcbfd733c30a1c1a1"
+    },
+    "static/fonts/source-serif/OTF/SourceSerif4-Light.otf": {
+      "kind": "file",
+      "sha256": "4128f8b2af440ca367c0c42fec1c32ccce7bc45dc1672af997518300e5e53d3c"
+    },
+    "static/fonts/source-serif/OTF/SourceSerif4-LightIt.otf": {
+      "kind": "file",
+      "sha256": "f8ade752fd54e49d7f69150c21092a27a88ee690330873fcf84d033971d1cccc"
+    },
+    "static/fonts/source-serif/OTF/SourceSerif4-Regular.otf": {
+      "kind": "file",
+      "sha256": "edf160d0d584deee8a3bb2c3371b2a7624ca63580fbe02c57c1f4c91e84d8787"
+    },
+    "static/fonts/source-serif/OTF/SourceSerif4-Semibold.otf": {
+      "kind": "file",
+      "sha256": "25e034392847d9965c92f98971b3646436b7ab919ece9118b0c0e5ec94c02efc"
+    },
+    "static/fonts/source-serif/OTF/SourceSerif4-SemiboldIt.otf": {
+      "kind": "file",
+      "sha256": "fc22addcea5d5ab982dfef6d388fff6bdb3e31ae46c37e0015b8312e634a6e9b"
+    },
+    "static/fonts/source-serif/TTF/SourceSerif4-Black.ttf": {
+      "kind": "file",
+      "sha256": "9e99d6a487c6f4fab39c119b763d41cb2d849284521ce91620cb6286b58f97e6"
+    },
+    "static/fonts/source-serif/TTF/SourceSerif4-BlackIt.ttf": {
+      "kind": "file",
+      "sha256": "2511c7ec916d3ee9d9cd3266b64fcd0cca4fe7da9aa78b159276e778c3a500a5"
+    },
+    "static/fonts/source-serif/TTF/SourceSerif4-Bold.ttf": {
+      "kind": "file",
+      "sha256": "7cf4f4e1ad74f45058d5bc61716b82560442fbdcd9d3654d2dea96bf6c683d86"
+    },
+    "static/fonts/source-serif/TTF/SourceSerif4-BoldIt.ttf": {
+      "kind": "file",
+      "sha256": "7b215b37f8873f5579f3f8d2ded3ca7c588e2f435cd996605ebfc5befe2cd5eb"
+    },
+    "static/fonts/source-serif/TTF/SourceSerif4-ExtraLight.ttf": {
+      "kind": "file",
+      "sha256": "c5f076816eadc1165296be461e883c20c15df410d0e2e934ccdc04fff44c1300"
+    },
+    "static/fonts/source-serif/TTF/SourceSerif4-ExtraLightIt.ttf": {
+      "kind": "file",
+      "sha256": "415944388bc4bd73f70797f82b5f8ea19f2cb54b673015e6dc5423c2e3b567d5"
+    },
+    "static/fonts/source-serif/TTF/SourceSerif4-It.ttf": {
+      "kind": "file",
+      "sha256": "9d2950a8f1da66e21502c35d646a1d2148e79f9ea43fd2158cf02f5232e7f430"
+    },
+    "static/fonts/source-serif/TTF/SourceSerif4-Light.ttf": {
+      "kind": "file",
+      "sha256": "3051ab89b702d23474f0dccbc183b3004ff843f5c343d1ee31eca3d927fee0db"
+    },
+    "static/fonts/source-serif/TTF/SourceSerif4-LightIt.ttf": {
+      "kind": "file",
+      "sha256": "f77ca75d8612072fe7bdae336a46d0727d3d729b56ffefa9700030198da892a1"
+    },
+    "static/fonts/source-serif/TTF/SourceSerif4-Regular.ttf": {
+      "kind": "file",
+      "sha256": "e5a4ee6a3d87bb9024796be390c6771e2a0eb1883dae25effaf57ca01668e24b"
+    },
+    "static/fonts/source-serif/TTF/SourceSerif4-Semibold.ttf": {
+      "kind": "file",
+      "sha256": "36db62940cb5728b12b1802476dc7fcf4c6c519a7bdd476ba23a4e555fc4655f"
+    },
+    "static/fonts/source-serif/TTF/SourceSerif4-SemiboldIt.ttf": {
+      "kind": "file",
+      "sha256": "d6a0a4317102a255a55850640332ba3acc7c872606a555516b4ecdb66f3c9899"
+    },
+    "static/fonts/source-serif/WOFF/OTF/SourceSerif4-Black.otf.woff": {
+      "kind": "file",
+      "sha256": "094260125da3a51b1b667eb2f5c07cff977c15a17dd7445bf85180d6a1e942e4"
+    },
+    "static/fonts/source-serif/WOFF/OTF/SourceSerif4-BlackIt.otf.woff": {
+      "kind": "file",
+      "sha256": "f0fd5b82c23a5479d9e0cbc40c48a307b652e47c206d3e8a806d2fb42a1a14b8"
+    },
+    "static/fonts/source-serif/WOFF/OTF/SourceSerif4-Bold.otf.woff": {
+      "kind": "file",
+      "sha256": "b39af35c13ac6275ebae2bd4499e5ad050b07186bf1ca3446230f53dbac9be8d"
+    },
+    "static/fonts/source-serif/WOFF/OTF/SourceSerif4-BoldIt.otf.woff": {
+      "kind": "file",
+      "sha256": "36edc901f80493f14ea423f14675d7250238103f70230f80f91a65d9d5af78a1"
+    },
+    "static/fonts/source-serif/WOFF/OTF/SourceSerif4-ExtraLight.otf.woff": {
+      "kind": "file",
+      "sha256": "83c54bf2c193eaade521db2526f1851489565ac90d6d318d7d2883b3d2f9d2f7"
+    },
+    "static/fonts/source-serif/WOFF/OTF/SourceSerif4-ExtraLightIt.otf.woff": {
+      "kind": "file",
+      "sha256": "00d2537465daa5efb1125b0a5aa8f0200353f30a74e546dbe0f5b233af47bbf3"
+    },
+    "static/fonts/source-serif/WOFF/OTF/SourceSerif4-It.otf.woff": {
+      "kind": "file",
+      "sha256": "97c6e78bdacf338bb6d6805602e9abc0a826a10685ca66d7c48876d4341f14fa"
+    },
+    "static/fonts/source-serif/WOFF/OTF/SourceSerif4-Light.otf.woff": {
+      "kind": "file",
+      "sha256": "8d79ebd36f8bb59d8dc93f90850d0c6a88d0f2445f05f528ea166112c7087734"
+    },
+    "static/fonts/source-serif/WOFF/OTF/SourceSerif4-LightIt.otf.woff": {
+      "kind": "file",
+      "sha256": "37833389561c629778967b1c587ce663598350430fd26f9ef6867ee06c4cc523"
+    },
+    "static/fonts/source-serif/WOFF/OTF/SourceSerif4-Regular.otf.woff": {
+      "kind": "file",
+      "sha256": "b1a460e5c5ff891b7ddd3420ffcc5de20a5d1cd8ff0d1be09d3a810eae2acc2c"
+    },
+    "static/fonts/source-serif/WOFF/OTF/SourceSerif4-Semibold.otf.woff": {
+      "kind": "file",
+      "sha256": "90b12975f50e4890b2c4a9e7b6c3fa33eff39151a623c197b13c3080b39bce03"
+    },
+    "static/fonts/source-serif/WOFF/OTF/SourceSerif4-SemiboldIt.otf.woff": {
+      "kind": "file",
+      "sha256": "b0c2266a9c004f8c93b1d473e6d3be4bb2256a84a8a624eaaebfad41749266de"
+    },
+    "static/fonts/source-serif/WOFF/TTF/SourceSerif4-Black.ttf.woff": {
+      "kind": "file",
+      "sha256": "fc55bc5bf405e19318e3d43644e6bc79e9388621966356049063bb8e13c062ea"
+    },
+    "static/fonts/source-serif/WOFF/TTF/SourceSerif4-BlackIt.ttf.woff": {
+      "kind": "file",
+      "sha256": "8eaeb039749621de5fc4aeb597036933a6d2c3ad0efc2c40976653a66745d8a7"
+    },
+    "static/fonts/source-serif/WOFF/TTF/SourceSerif4-Bold.ttf.woff": {
+      "kind": "file",
+      "sha256": "33a1e96bcca83555f245b92185841c591af8719886100c474d03111671b108e9"
+    },
+    "static/fonts/source-serif/WOFF/TTF/SourceSerif4-BoldIt.ttf.woff": {
+      "kind": "file",
+      "sha256": "5e53f5312d6e32d12f832682680bbeeabd62386ee23d1edd75abd19d61cf3461"
+    },
+    "static/fonts/source-serif/WOFF/TTF/SourceSerif4-ExtraLight.ttf.woff": {
+      "kind": "file",
+      "sha256": "567e831e97e8c0c7d1ede091a2bfede501ab00d4684621dae2b423900deac5a8"
+    },
+    "static/fonts/source-serif/WOFF/TTF/SourceSerif4-ExtraLightIt.ttf.woff": {
+      "kind": "file",
+      "sha256": "fb70c2b5a60c2bdf03d269de274aabde4cc9634c13efaa5b1d0371b823f71424"
+    },
+    "static/fonts/source-serif/WOFF/TTF/SourceSerif4-It.ttf.woff": {
+      "kind": "file",
+      "sha256": "0874d2d069bd381657e75419df50b86b4fc2452afe64c755e6e33c4b66a5341e"
+    },
+    "static/fonts/source-serif/WOFF/TTF/SourceSerif4-Light.ttf.woff": {
+      "kind": "file",
+      "sha256": "3f8ebcf69cf4dd57c169e301833abc1539a25acac6ac4dbf78d8a312f280a4a8"
+    },
+    "static/fonts/source-serif/WOFF/TTF/SourceSerif4-LightIt.ttf.woff": {
+      "kind": "file",
+      "sha256": "2f03aa604bb91a2a6cb341d01be6ee0821219cabaf04444302c52c6ec4d4e874"
+    },
+    "static/fonts/source-serif/WOFF/TTF/SourceSerif4-Regular.ttf.woff": {
+      "kind": "file",
+      "sha256": "04ff8c051752c0dca81908fdd17162ce4d2904669be8fb68814c4d36d8e7902d"
+    },
+    "static/fonts/source-serif/WOFF/TTF/SourceSerif4-Semibold.ttf.woff": {
+      "kind": "file",
+      "sha256": "5ecfa5e6f51e1b7904f07a02989a6cf45aa01d506b561080a3ba9166637743f7"
+    },
+    "static/fonts/source-serif/WOFF/TTF/SourceSerif4-SemiboldIt.ttf.woff": {
+      "kind": "file",
+      "sha256": "922ab79233edfaf1135c30230b35196d26f4fc0ad5d294f66ed2c3b795ecaa55"
+    },
+    "static/fonts/source-serif/WOFF2/OTF/SourceSerif4-Black.otf.woff2": {
+      "kind": "file",
+      "sha256": "29f2d59d935bcc89987731a6a55c4b8ea4796ebf78d09c42e61dae768f4ab360"
+    },
+    "static/fonts/source-serif/WOFF2/OTF/SourceSerif4-BlackIt.otf.woff2": {
+      "kind": "file",
+      "sha256": "213b0cb1543b5e65b97a7a590cf78045fdb62445c381918203bff6395d1e63e6"
+    },
+    "static/fonts/source-serif/WOFF2/OTF/SourceSerif4-Bold.otf.woff2": {
+      "kind": "file",
+      "sha256": "c1c3741a0292062e9694c927cf483fa24d725b4e5a64b5af73f411e2a0a631ce"
+    },
+    "static/fonts/source-serif/WOFF2/OTF/SourceSerif4-BoldIt.otf.woff2": {
+      "kind": "file",
+      "sha256": "96e6a14dff163fae4031f5adb582357cdab55c9a3aad0cd7d72ac4181addf312"
+    },
+    "static/fonts/source-serif/WOFF2/OTF/SourceSerif4-ExtraLight.otf.woff2": {
+      "kind": "file",
+      "sha256": "5dcaf4c8cee6d69e40e9fba49dd6588bb1bef91fffdf255d050123b3f1766a48"
+    },
+    "static/fonts/source-serif/WOFF2/OTF/SourceSerif4-ExtraLightIt.otf.woff2": {
+      "kind": "file",
+      "sha256": "a6571b08f32ef8e969b810ac6f7d94854c0ea877c4eb658f566121721346d4c8"
+    },
+    "static/fonts/source-serif/WOFF2/OTF/SourceSerif4-It.otf.woff2": {
+      "kind": "file",
+      "sha256": "e65464583be3cb56b9fee2bff0f2f7d11706aba31435144f87f393e62ed316c8"
+    },
+    "static/fonts/source-serif/WOFF2/OTF/SourceSerif4-Light.otf.woff2": {
+      "kind": "file",
+      "sha256": "16dd234a3d3dea0ad3aa9f7ec35925a0d4c1e821c7c103129e59c438be0caa6c"
+    },
+    "static/fonts/source-serif/WOFF2/OTF/SourceSerif4-LightIt.otf.woff2": {
+      "kind": "file",
+      "sha256": "d635134b6f325f6ea73194e6ae232dedc024be35f01f77cf1750bbdeab29ecba"
+    },
+    "static/fonts/source-serif/WOFF2/OTF/SourceSerif4-Regular.otf.woff2": {
+      "kind": "file",
+      "sha256": "42aa010dbb82d90764a28f6cc7d809a9395999b7390eb3b212028c6975e97402"
+    },
+    "static/fonts/source-serif/WOFF2/OTF/SourceSerif4-Semibold.otf.woff2": {
+      "kind": "file",
+      "sha256": "7eff2d2fde32c42992e723eb24dcc6dc5b640ef0da97ce373cd38e0604202e30"
+    },
+    "static/fonts/source-serif/WOFF2/OTF/SourceSerif4-SemiboldIt.otf.woff2": {
+      "kind": "file",
+      "sha256": "833f34eae9b4fa9cf23f7d39f4c7bb27c1ca7281629f16cc2d2c3b7c3851ccbc"
+    },
+    "static/fonts/source-serif/WOFF2/TTF/SourceSerif4-Black.ttf.woff2": {
+      "kind": "file",
+      "sha256": "d7320055f37024665289050a68e3094e8b235305e43b14eb813e96036a108c9e"
+    },
+    "static/fonts/source-serif/WOFF2/TTF/SourceSerif4-BlackIt.ttf.woff2": {
+      "kind": "file",
+      "sha256": "8b2129d4faadd5834c2043bb1c3599e4d91a333f0808e173066431d423510485"
+    },
+    "static/fonts/source-serif/WOFF2/TTF/SourceSerif4-Bold.ttf.woff2": {
+      "kind": "file",
+      "sha256": "6d4fd4c0f08798a478fe34aafea9bf5cfa1cbc6ae4b834193febaee74254d10c"
+    },
+    "static/fonts/source-serif/WOFF2/TTF/SourceSerif4-BoldIt.ttf.woff2": {
+      "kind": "file",
+      "sha256": "738ded930ea75d50331c43390217282f212419e8bf0d42932771de8047c8e404"
+    },
+    "static/fonts/source-serif/WOFF2/TTF/SourceSerif4-ExtraLight.ttf.woff2": {
+      "kind": "file",
+      "sha256": "5cfb034d389aa77a77aabf73be24ecbf0ada8563bf8901f5fb18f7f41f23ccf7"
+    },
+    "static/fonts/source-serif/WOFF2/TTF/SourceSerif4-ExtraLightIt.ttf.woff2": {
+      "kind": "file",
+      "sha256": "51c217ed6b3597ce8ebe8e25d5b113154942966c1bfc5ee56f9892e8286fdb67"
+    },
+    "static/fonts/source-serif/WOFF2/TTF/SourceSerif4-It.ttf.woff2": {
+      "kind": "file",
+      "sha256": "ca3b17ed1e3e668ffd9e03385cfd46e1b095df783de53710d25d41241496026b"
+    },
+    "static/fonts/source-serif/WOFF2/TTF/SourceSerif4-Light.ttf.woff2": {
+      "kind": "file",
+      "sha256": "bc6addadeba121667c261c3cdcdc6efd8bdb3454e7cbe81fd1718ca05347b2fd"
+    },
+    "static/fonts/source-serif/WOFF2/TTF/SourceSerif4-LightIt.ttf.woff2": {
+      "kind": "file",
+      "sha256": "d7ac8d8021be13ce5f449973eee8e10c3093c605647860b3136b303b6fb61848"
+    },
+    "static/fonts/source-serif/WOFF2/TTF/SourceSerif4-Regular.ttf.woff2": {
+      "kind": "file",
+      "sha256": "6b053e98f0838afe81f3e784727be4583a7c13bb42f198dc5202ecffee0aaee0"
+    },
+    "static/fonts/source-serif/WOFF2/TTF/SourceSerif4-Semibold.ttf.woff2": {
+      "kind": "file",
+      "sha256": "457a13ac92e977d82e376038a2daac7fdb5433610910bf5787bdf6c1c3781865"
+    },
+    "static/fonts/source-serif/WOFF2/TTF/SourceSerif4-SemiboldIt.ttf.woff2": {
+      "kind": "file",
+      "sha256": "a49ea2a227bc8d6c56691203b1f456f80802368a9b7c3c577408859c408a4062"
+    },
+    "static/fonts/source-serif/source-serif-text.css": {
+      "kind": "file",
+      "sha256": "b9b43ac8a7249e5167af7447074fcaa2e574524dae695d20ee4bbd15e722185c"
+    },
+    "static/lean_logo.svg": {
+      "kind": "file",
+      "sha256": "047c4cea72d58b717ecad3eb11ce02940129bba7d4be9942587adf23354e8c20"
+    },
+    "static/theme.css": {
+      "kind": "file",
+      "sha256": "89af44dcf7c1bb74dcf9d5d0a26e86ec61cbe2c6af59f74a929d9fe07e1f219e"
+    },
+    "toc-resize.js": {
+      "kind": "file",
+      "sha256": "20f6a416004c05debba4f136936dc09110d28556309a282a654a3ca9cc2e9032"
+    },
+    "verso-vars.css": {
+      "kind": "file",
+      "sha256": "8c61cc3cbcbb11256f16f09dd92e971b940345f3c764cf072df00c777c47ecbf"
+    },
+    "xref.json": {
+      "kind": "file",
+      "sha256": "bc495de72bf066ee6511ed6ecaa4c81c07a07536e60c4f400d93774552a45159"
+    }
+  },
+  "unresolved_heading_count": 25
+}
