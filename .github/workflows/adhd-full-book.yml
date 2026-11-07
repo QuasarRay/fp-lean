@@ -1,0 +1,124 @@
+name: Complete ADHD book (official Lean/Verso renderer)
+
+on:
+  push:
+    branches:
+      - 'adhd-book/**'
+    paths:
+      - 'adhd_book/**'
+      - '.github/workflows/adhd-full-book.yml'
+      - 'book/**'
+      - 'examples/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: adhd-book-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  full-book:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Checkout the complete book source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Setup Python (same version as upstream CI)
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.10.4'
+
+      - name: Install build dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential zip
+          python -m pip install beautifulsoup4==4.14.3 markdownify==1.2.2
+
+      - name: Bootstrap readable generator source on first run
+        shell: bash
+        run: |
+          set -euo pipefail
+          if test ! -f adhd_book/build_adhd_book.py; then
+            gzip -dc adhd_book/source/build_adhd_book.py.gz > adhd_book/build_adhd_book.py
+          fi
+          python -m py_compile adhd_book/build_adhd_book.py
+
+      - name: Run adversarial unit tests before building
+        run: python -m unittest discover -s adhd_book -p 'test_*.py' -v
+
+      - name: Install elan
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl -fLO --location https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh
+          chmod u+x elan-init.sh
+          ./elan-init.sh -y --default-toolchain none
+          echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
+
+      - name: Build original code examples, including extracted examples
+        shell: bash
+        run: |
+          set -euo pipefail
+          pushd examples
+          lean --version
+          lake build
+          lake build subverso-extract-mod
+          popd
+
+      - name: Build entire original book using official Verso
+        shell: bash
+        run: |
+          set -euo pipefail
+          pushd book
+          lean --version
+          lake exe fp-lean --depth 2 --without-html-single --verbose
+          popd
+          test -s book/_out/html-multi/index.html
+
+      - name: Produce original, ADHD HTML, and organized Markdown
+        shell: bash
+        run: |
+          set -euo pipefail
+          python adhd_book/build_adhd_book.py build \
+            --html book/_out/html-multi \
+            --output ADHD_BOOK \
+            --revision "$GITHUB_SHA"
+          python adhd_book/build_adhd_book.py verify --output ADHD_BOOK
+
+      - name: Create complete downloadable edition ZIP
+        shell: bash
+        run: |
+          set -euo pipefail
+          zip -rqy Complete_FP_Lean_ADHD_Book.zip ADHD_BOOK
+          unzip -tq Complete_FP_Lean_ADHD_Book.zip
+          sha256sum Complete_FP_Lean_ADHD_Book.zip > Complete_FP_Lean_ADHD_Book.zip.sha256
+
+      - name: Publish complete edition artifact
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: complete-fp-lean-adhd-book
+          path: |
+            Complete_FP_Lean_ADHD_Book.zip
+            Complete_FP_Lean_ADHD_Book.zip.sha256
+          retention-days: 90
+          if-no-files-found: error
+
+      - name: Commit generated Markdown into the book branch
+        if: github.event_name == 'push' && startsWith(github.ref_name, 'adhd-book/')
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -f ADHD_BOOK/markdown ADHD_BOOK/manifest.json ADHD_BOOK/README.md
+          if test -f adhd_book/source/build_adhd_book.py.gz; then
+            git add -f adhd_book/build_adhd_book.py
+            git rm -f adhd_book/source/build_adhd_book.py.gz
+          fi
+          if ! git diff --cached --quiet; then
+            git commit -m 'docs: generate full ADHD edition from rendered Verso [skip ci]'
+            git push origin "HEAD:refs/heads/${GITHUB_REF_NAME}"
+          fi
